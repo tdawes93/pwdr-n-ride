@@ -10,6 +10,7 @@ body {
     font-family: Cabin, sans-serif;
     font-weight: 300;
     color: #2d2c2a;
+    font-size: 75%;
 }
 
 /* Header and logo */
@@ -25,4 +26,26 @@ h1 {
     text-decoration: none;
     text-align: center;
     font-size: 200%;
+}
+
+/* Navigation bar */
+
+#navbar {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#navbar li {
+    text-decoration-line: none;
+    text-align: center;
+    float: left;
+}
+
+#navbar a {
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
 }
