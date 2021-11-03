@@ -72,10 +72,31 @@ h1 {
     background-color: #698A9B;
 }
 
-/*hero image*/
+/*hero image and book now button*/
 
 #hero {
     height: 600px;
     width: 100%;
     background: url(../images/banff_snowboarder_2.jpg) no-repeat scroll center center/cover;
+}
+
+#book {
+    width: 130px;
+    height: auto;
+    background-color: #ea591f;
+    padding: 7px;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 40px; 
+    right: 200px; 
+}
+
+#book a {
+    text-align: center;
+    text-decoration: inherit;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
