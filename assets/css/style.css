@@ -9,7 +9,7 @@
 body {
     font-family: Cabin, sans-serif;
     font-weight: 300;
-    color: #2d2c2a
+    color: #2d2c2a;
 }
 
 /* Header and logo */
@@ -17,9 +17,12 @@ body {
 h1 {
     font-family: Bebas Neue, sans-serif;
     letter-spacing: 2px;
+    font-weight: 300;
+    color: #2d2c2a;
 }
 
 #logo {
     text-decoration: none;
-    float: center;
+    text-align: center;
+    font-size: 200%;
 }
