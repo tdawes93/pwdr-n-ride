@@ -11,12 +11,13 @@ body {
     font-weight: 300;
     color: #2d2c2a;
     font-size: 75%;
-}
+   }
 
 /* Header and logo */
 
 header {
-    margin-top: 15px;
+    padding-top: 15px;
+    background-color: rgba(154, 153, 158, 0.4);
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
 .menu {
     width: 100%;
     margin: 0 auto; 
-    background-color: rgba(154, 153, 158, 0.4);
+    /*background-color: rgba(154, 153, 158, 0.4);*/
 }
 
 #navbar {
@@ -69,4 +70,12 @@ h1 {
 
 .selected {
     background-color: #698A9B;
+}
+
+/*hero image*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/banff_snowboarder.jpg) no-repeat scroll center top/cover;
 }
