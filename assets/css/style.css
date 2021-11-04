@@ -118,3 +118,9 @@ h3 {
 .about li {
     list-style-type: none;
 }
+
+/* Footer */
+
+footer span {
+    display: block
+}
