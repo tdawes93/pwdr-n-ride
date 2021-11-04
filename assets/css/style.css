@@ -88,7 +88,7 @@ h1 {
     border-radius: 5%;
     position: absolute;
     bottom: 40px; 
-    right: 200px; 
+    left: 30px; 
 }
 
 #book a {
