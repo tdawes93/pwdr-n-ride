@@ -38,8 +38,6 @@ h1 {
 .menu {
     width: 100%;
     margin: 0 auto;
-    /*position: fixed;
-    background-color: inherit;*/
 }
 
 #navbar {
@@ -75,7 +73,7 @@ h1 {
 /*hero image and book now button*/
 
 #hero {
-    height: 600px;
+    height: 70vh;
     width: 100%;
     background: url(../images/banff_snowboarder_2.jpg) no-repeat scroll center center/cover;
 }
@@ -87,7 +85,7 @@ h1 {
     padding: 7px;
     border-radius: 5%;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 30px;
 }
 
@@ -112,12 +110,12 @@ h1 {
 
 #about {
     font-family: Bebas Neue, sans-serif;
-    font-size: 2em;
+    font-size: 200%;
 }
 
 h3 {
     font-family: Bebas Neue, sans-serif;
-    font-size: 1.5em;
+    font-size: 150%;
 }
 
 .about li {
@@ -130,7 +128,7 @@ footer {
     background: #698A9B;
     color: #fdfdfd;
     height: auto;
-    width: 100%
+    width: 100%;
 }
 
 footer span {
@@ -144,6 +142,11 @@ span h2 {
     font-family: Bebas Neue, sans-serif;
     font-weight: 300;
     padding: 5px 0;
+    font-size: 150%;
+}
+
+#powder-news {
+    padding: 0 14px;
 }
 
 .newsletter {
@@ -158,7 +161,7 @@ span h2 {
     color: #fdfdfd;
     background-color: transparent;
     border: solid #fdfdfd;
-    font-size: 1.5em;
+    font-size: 150%;
 }
 
 #email::placeholder {
@@ -178,8 +181,8 @@ span h2 {
 }
 
 #contact div {
-    width: 300px;
-    padding-left: 60px;
+    width: 60vw;
+    padding-left: 20vw;
 }
 
 #contact p {
