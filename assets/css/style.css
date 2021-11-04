@@ -12,7 +12,7 @@ body {
     color: #2d2c2a;
     font-size: 75%;
     letter-spacing: 2px;
-   }
+}
 
 /* Header and logo */
 
@@ -37,7 +37,7 @@ h1 {
 
 .menu {
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
     /*position: fixed;
     background-color: inherit;*/
 }
@@ -87,8 +87,8 @@ h1 {
     padding: 7px;
     border-radius: 5%;
     position: absolute;
-    bottom: 40px; 
-    left: 30px; 
+    bottom: 40px;
+    left: 30px;
 }
 
 #book a {
@@ -102,13 +102,17 @@ h1 {
 
 /*About section*/
 
+.layout {
+    padding: 5px 0px;
+}
+
 .about {
-    padding: 5px 0 0 14px;
+    padding: 5px 0px 5px 14px;
 }
 
 #about {
     font-family: Bebas Neue, sans-serif;
-    
+
 }
 
 h3 {
@@ -124,38 +128,52 @@ h3 {
 footer {
     background: #698A9B;
     color: #fdfdfd;
+    height: auto;
+    width: 100%
 }
 
 footer span {
-    display: inline;
-    padding: 5px 0 0 14px;
+    display: block;
+    padding: 5px 0;
     width: 100%;
     text-align: center;
 }
 
 span h2 {
     font-family: Bebas Neue, sans-serif;
+    font-weight: 300;
 }
 
 .newsletter {
     letter-spacing: inherit;
     padding: 7px 0;
-    margin: 7px 0; 
+    margin: 7px 0;
     width: 80%;
-}
-
-#email {
 }
 
 #subscribe {
     font-family: Bebas Neue, sans-serif;
     color: #fdfdfd;
-    background-color: transparent; 
+    background-color: transparent;
     border: solid #fdfdfd;
 }
 
-#email::placeholder
-    {   
-        font-family: Cabin, sans-serif;
-        text-align: center;      
-    }
+#email::placeholder {
+    font-family: Cabin, sans-serif;
+    text-align: center;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media a {
+    color: #fdfdfd;
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+}
+
+#contact {
+    text-decoration: none;
+}
