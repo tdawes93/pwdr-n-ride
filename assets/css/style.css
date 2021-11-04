@@ -112,11 +112,12 @@ h1 {
 
 #about {
     font-family: Bebas Neue, sans-serif;
-
+    font-size: 2em;
 }
 
 h3 {
     font-family: Bebas Neue, sans-serif;
+    font-size: 1.5em;
 }
 
 .about li {
@@ -183,6 +184,7 @@ span h2 {
 
 #contact p {
     text-align: left;
+    padding-bottom: 5px;
 }
 
 #contact a {

@@ -44,45 +44,46 @@
     </header>
 
     <!--Hero image and book now button-->
+    <main>
+        <section>
+            <div id="hero"></div>
+            <nav id="book">
+                <a href="#" target="_self"
+                    aria-label="Book lessons with us now (button takes you to the booking form page)">
+                    <h2>Book Now!</h2>
+                </a>
+            </nav>
+        </section>
 
-    <section>
-        <div id="hero"></div>
-        <nav id="book">
-            <a href="#" target="_self" aria-label="Book lessons with us now (button takes you to the booking form page)">
-                <h2>Book Now!</h2>
-            </a>
-        </nav>
-    </section>
+        <!--About section-->
 
-    <!--About section-->
-
-    <section class="layout">
-        <div class="about">
-            <h2 id="about">What are we about?</h2>
-        </div>
-        <div class="about">
-            <p>Text about who we are and why we're here</p>
-        </div>
-    </section>
-    <section class="layout">
-        <div class="about">
-            <ul>
-                <li>
-                    <h3>Lessons:</h3>
-                    <p>List of lessons</p>
-                </li>
-                <li>
-                    <h3>Group Events:</h3>
-                    <p>List of regular group events</p>
-                </li>
-                <li>
-                    <h3>Competitions</h3>
-                    <p>List of sample competitions</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
+        <section class="layout">
+            <div class="about">
+                <h2 id="about">What are we about?</h2>
+            </div>
+            <div class="about">
+                <p>Text about who we are and why we're here</p>
+            </div>
+        </section>
+        <section class="layout">
+            <div class="about">
+                <ul>
+                    <li>
+                        <h3>Lessons:</h3>
+                        <p>List of lessons</p>
+                    </li>
+                    <li>
+                        <h3>Group Events:</h3>
+                        <p>List of regular group events</p>
+                    </li>
+                    <li>
+                        <h3>Competitions</h3>
+                        <p>List of sample competitions</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <!--Footer, newsletter, social media links and contact info-->
 
     <footer class="layout">
@@ -90,7 +91,7 @@
             <h2>Pwdr News</h2>
             <p id="powder-news">Get deals, events, news and more dropped in your inbox!
                 <form target="_blank" method="POST" autocomplete="on" name="newsletter" id="newsletter">
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="newsletter">
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="newsletter" required>
                     <br>
                     <input type="submit" value="Subscribe!" id="subscribe" class="newsletter">
                 </form>
@@ -121,12 +122,10 @@
         <span id="contact">
             <h2>Contact us</h2>
             <div>
-                <p><i class="fas fa-map-marker-alt"></i> 511 Deer Street, Banff, AB, T1L 1E5
-                    <br>
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:info@pwdrnride.com">info@pwdrnride.com</a>
-                    <br>
-                    <i class="fas fa-phone-alt"></i>
+                <p><i class="fas fa-map-marker-alt"></i> 511 Deer Street, Banff, AB, T1L 1E5</p>
+                <p> <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@pwdrnride.com">info@pwdrnride.com</a></p>
+                <p> <i class="fas fa-phone-alt"></i>
                     <a href="tel:+1-0123-456-789">+1-0123-456-789</a>
                 </p>
             </div>
