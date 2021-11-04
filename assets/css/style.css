@@ -121,6 +121,41 @@ h3 {
 
 /* Footer */
 
-footer span {
-    display: block
+footer {
+    background: #698A9B;
+    color: #fdfdfd;
 }
+
+footer span {
+    display: inline;
+    padding: 5px 0 0 14px;
+    width: 100%;
+    text-align: center;
+}
+
+span h2 {
+    font-family: Bebas Neue, sans-serif;
+}
+
+.newsletter {
+    letter-spacing: inherit;
+    padding: 7px 0;
+    margin: 7px 0; 
+    width: 80%;
+}
+
+#email {
+}
+
+#subscribe {
+    font-family: Bebas Neue, sans-serif;
+    color: #fdfdfd;
+    background-color: transparent; 
+    border: solid #fdfdfd;
+}
+
+#email::placeholder
+    {   
+        font-family: Cabin, sans-serif;
+        text-align: center;      
+    }
