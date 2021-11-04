@@ -36,7 +36,7 @@
                     <a href="#">Book</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -51,12 +51,47 @@
         </nav>
     </section>
     <section>
-        What are we about?
+        <div class="about">
+            <h2 id="about">What are we about?</h2>
+        </div>
+        <div class="about">
+            <p>Text about who we are and why we're here</p>
+        </div>
     </section>
     <section>
-        List of courses, group events and competitions
+        <div class="about">
+            <ul>
+                <li>
+                    <h3>Lessons:</h3>
+                    <p>List of lessons</p>
+                </li>
+                <li>
+                    <h3>Group Events:</h3>
+                    <p>List of regular group events</p>
+                </li>
+                <li>
+                    <h3>Competitions</h3>
+                    <p>List of sample competitions</p>
+                </li>
+            </ul>
+        </div>
     </section>
-    <footer>Newsletter signup, Social media and contact information</footer>
+    <footer>
+        <span>
+            <h2>Powder News</h2>
+            <p>Get deals, events, news and more dropped in your inbox!</p>
+            <form target="_blank" method="POST" autocomplete="on" name="newsletter">
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                <input type="submit" value="Subscribe!">
+            </form>
+        </span>
+        <span>
+            SM icons
+        </span>
+        <span id="contact">
+            Contact us
+        </span>
+    </footer>
 </body>
 
 </html>

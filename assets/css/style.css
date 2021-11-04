@@ -11,6 +11,7 @@ body {
     font-weight: 300;
     color: #2d2c2a;
     font-size: 75%;
+    letter-spacing: 2px;
    }
 
 /* Header and logo */
@@ -22,7 +23,6 @@ header {
 
 h1 {
     font-family: Bebas Neue, sans-serif;
-    letter-spacing: 2px;
     font-weight: 300;
     color: #2d2c2a;
 }
@@ -38,12 +38,12 @@ h1 {
 .menu {
     width: 100%;
     margin: 0 auto; 
-    /*background-color: rgba(154, 153, 158, 0.4);*/
+    /*position: fixed;
+    background-color: inherit;*/
 }
 
 #navbar {
     font-size: 120%;
-    letter-spacing: 2px;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -98,5 +98,23 @@ h1 {
     text-transform: uppercase;
     color: #fdfdfd;
     font-weight: 500;
-    letter-spacing: 2px;
+}
+
+/*About section*/
+
+.about {
+    padding: 5px 0 0 14px;
+}
+
+#about {
+    font-family: Bebas Neue, sans-serif;
+    
+}
+
+h3 {
+    font-family: Bebas Neue, sans-serif;
+}
+
+.about li {
+    list-style-type: none;
 }
