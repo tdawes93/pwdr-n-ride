@@ -105,7 +105,12 @@ h1 {
 }
 
 .about {
-    padding: 5px 0px 5px 14px;
+    padding: 5px 14px 5px 14px;
+}
+
+.about a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #about {
@@ -116,6 +121,7 @@ h1 {
 h3 {
     font-family: Bebas Neue, sans-serif;
     font-size: 150%;
+    padding: 5px 0;
 }
 
 .about li {
