@@ -142,13 +142,14 @@ footer span {
 span h2 {
     font-family: Bebas Neue, sans-serif;
     font-weight: 300;
+    padding: 5px 0;
 }
 
 .newsletter {
     letter-spacing: inherit;
     padding: 7px 0;
     margin: 7px 0;
-    width: 80%;
+    width: 300px;
 }
 
 #subscribe {
@@ -156,6 +157,7 @@ span h2 {
     color: #fdfdfd;
     background-color: transparent;
     border: solid #fdfdfd;
+    font-size: 1.5em;
 }
 
 #email::placeholder {
@@ -174,6 +176,16 @@ span h2 {
     padding: 5%;
 }
 
-#contact {
+#contact div {
+    width: 300px;
+    padding-left: 60px;
+}
+
+#contact p {
+    text-align: left;
+}
+
+#contact a {
     text-decoration: none;
+    color: #fdfdfd;
 }
