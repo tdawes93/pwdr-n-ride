@@ -85,7 +85,7 @@ h1 {
     padding: 7px;
     border-radius: 5%;
     position: absolute;
-    bottom: 100px;
+    top: 495px;
     left: 30px;
 }
 
@@ -240,5 +240,34 @@ span h2 {
 
     .newsletter {
         width: 40vw;
+    }
+}
+
+/* For small laptops */
+
+@media screen and (min-width: 770px) {
+
+    body {
+        font-size: 100%;
+    }
+
+    #logo, .menu {
+        display: inline-block;
+        /*line-height: 75px;*/
+    }
+    
+    .menu {
+        width: auto;
+        float: right;
+        padding-top: 21px;
+    }
+
+    #navbar {
+        padding: 0 7px;
+    }
+
+    #book {
+        width: 200px;
+        font-size: 150%;
     }
 }
