@@ -234,9 +234,11 @@ span h2 {
     }
 
     #contact div {
-        padding-left: 10vw;
+        padding-left: 5vw;
         width: 40vw;
     }
 
-   
+    .newsletter {
+        width: 40vw;
+    }
 }
