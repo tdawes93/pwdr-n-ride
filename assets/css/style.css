@@ -240,6 +240,7 @@ span h2 {
 
     .newsletter {
         width: 40vw;
+        max-width: 410px;
     }
 }
 
@@ -251,11 +252,12 @@ span h2 {
         font-size: 100%;
     }
 
-    #logo, .menu {
+    #logo,
+    .menu {
         display: inline-block;
-        /*line-height: 75px;*/
+
     }
-    
+
     .menu {
         width: auto;
         float: right;
@@ -270,4 +272,14 @@ span h2 {
         width: 200px;
         font-size: 150%;
     }
+}
+
+/* For larger screens */
+
+@media screen and (min-width: 1025px) {
+
+    #contact div {
+        padding-left: 10vw;
+    }
+
 }
