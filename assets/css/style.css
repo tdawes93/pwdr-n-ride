@@ -171,6 +171,12 @@ div h2 {
     font-size: 150%;
 }
 
+#subscribe:hover {
+    color: #698A9B;
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+
 #email::placeholder {
     font-family: Cabin, sans-serif;
     text-align: center;
