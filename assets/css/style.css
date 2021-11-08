@@ -286,3 +286,11 @@ div h2 {
     }
 
 }
+
+/* Gallery CSS */
+
+#shifty {
+    height: 60vh;
+    width: 70vw;
+    background: url(/assets/images/snowboarder-shifty.jpg) no-repeat scroll center center/cover;
+}
