@@ -223,6 +223,7 @@ div h2 {
     .contact {
         width: 49.5%;
         display: inline-block;
+        vertical-align: top;
     }
 
     #contact div {
