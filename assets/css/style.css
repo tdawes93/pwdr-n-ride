@@ -85,7 +85,7 @@ h1 {
     padding: 7px;
     border-radius: 5%;
     position: absolute;
-    top: 495px;
+    top: 450px;
     left: 30px;
 }
 
@@ -137,14 +137,14 @@ footer {
     width: 100%;
 }
 
-footer span {
+.contact {
     display: block;
     padding: 5px 0;
     width: 100%;
     text-align: center;
 }
 
-span h2 {
+div h2 {
     font-family: Bebas Neue, sans-serif;
     font-weight: 300;
     padding: 5px 0;
@@ -153,6 +153,7 @@ span h2 {
 
 #powder-news {
     padding: 0 14px;
+    text-align: center;
 }
 
 .newsletter {
@@ -219,17 +220,8 @@ span h2 {
         padding-left: 7px;
     }
 
-    .layout span {
-        width: 50vw;
-    }
-
-    .follow {
-        left: 0px;
-        float: left;
-        display: inline;
-    }
-
-    #contact {
+    .contact {
+        width: 50%;
         display: inline-block;
     }
 
