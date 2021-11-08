@@ -221,13 +221,17 @@ div h2 {
     }
 
     .contact {
-        width: 50%;
+        width: 49.5%;
         display: inline-block;
     }
 
     #contact div {
         padding-left: 5vw;
         width: 40vw;
+    }
+
+    #social-media a {
+        padding-bottom: 0%;
     }
 
     .newsletter {
@@ -271,7 +275,7 @@ div h2 {
 @media screen and (min-width: 1025px) {
 
     #contact div {
-        padding-left: 10vw;
+        padding-left: 9.5vw;
     }
 
 }
