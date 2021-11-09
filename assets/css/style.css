@@ -290,7 +290,7 @@ div h2 {
 /* Gallery CSS */
 
 .viewport {
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -304,13 +304,10 @@ div h2 {
 }
 
 .photo {
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
-    background-color: green;
     border: 2px solid black;
     box-sizing: border-box;
-    font-size: 10em;
-    text-align: center;
 }
 
 #photo-1 {
@@ -320,3 +317,12 @@ div h2 {
 #photo-2 {
     background: url(/assets/images/bradley-dunn-9SGGun3iIig-unsplash.jpg) no-repeat center center/cover;
 }
+
+#photo-3 {
+    background: url(/assets/images/perfect-snacks-SaRcln5IcE8-unsplash.jpg) no-repeat center center/cover;
+}
+
+#photo-4 {
+    background: url(/assets/images/daniel-lincoln-UNGYOAr0w5k-unsplash.jpg) no-repeat center center/cover;
+}
+
