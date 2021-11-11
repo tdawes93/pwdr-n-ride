@@ -58,16 +58,25 @@
                 <option value="Half-day Park Lesson">Half-day Park Lesson</option>
                 <option value="Full-day Park Lesson">Full-day Park Lesson</option>
             </select>
+            <br>
             <label for="fname">First Name:</label>
-            <input type="text" required>
+            <input type="text" name="fname" required>
+            <br>
             <label for="lname">Surname:</label>
-            <input type="text" required>
+            <input type="text" name="lname" required>
+            <br>
             <label for="email">Email Address:</label>
             <input type="email" name="email" id="email" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="Age" min="4" max="99" required>
+            <br>
             <label for="phone">Phone Number (please include country code): +</label>
             <input type="tel" name="phone" id="phone" required>
-            <label for="date">Lesson/Event Date</label>
+            <br>
+            <label for="lesson-date">Lesson/Event Date</label>
             <input type="date" name="lesson-date" id="lesson-date" required>
+            <br>
             <label for="instructor-request">Instructor Request (info about our instructors can be found on our <a
                     href="">Explore</a> page):</label>
             <select name="instructor-request" id="instructor-request" required>
@@ -76,24 +85,42 @@
                 <option value="Jeff">Jeff</option>
                 <option value="No-preference">No Preference</option>
             </select>
-            <p>The next section will ask you about your ability levels. If you are unsure about some of the terms, links to videos are provided.</p>
-            <label for="ability">Are you able to do the following? (tick all that apply):</label> 
-            <label for="skill-1">I can side slip on my heel-edge</label>
-            <input type="checkbox" for="skill-1" value="heel-edge">
-            <label for="skill-2">I can side slip on my toe-edge</label>
-            <input type="checkbox" for="skill-2" value="toe-edge">
-            <label for="skill-3">I can do a heel-turn</label>
-            <input type="checkbox" for="skill-3" value="heel-turn">
-            <label for="skill-4">I can do a toe-turn</label>
-            <input type="checkbox" for="skill-4" value="toe-turn">
-            <label for="skill-5">I can link turns on green runs</label>
-            <input type="checkbox" for="skill-5" value="green-runs">
-            <label for="skill-6">I can link turns on blue runs</label>
-            <input type="checkbox" for="skill-6" value="blue-runs">
-            <label for="skill-7">I can link turns on black runs</label>
-            <input type="checkbox" for="skill-7" value="black-runs">
-            <label for="skill-8">I can link turns on double-black runs</label>
-            <input type="checkbox" for="skill-8" value="double-black-runs">
+            <br>
+            <br>
+            <p>The next section will ask you about your ability levels. If you are unsure about some of the terms, links
+                to videos are provided.</p>
+            <br>
+            <p>Are you able to do the following? (tick all that apply):</p>
+            <label for="skill-1">I can side slip on my <a
+                    href="https://www.youtube.com/watch?v=J8fkGN6ni84&t=64s&ab_channel=SnowboardProCamp"
+                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a heel-edge slide is"
+                    target="_blank">heel-edge</a></label>
+            <input type="checkbox" name="skill-1" value="heel-edge">
+            <br>
+            <label for="skill-2">I can side slip on my <a
+                    href="https://www.youtube.com/watch?v=ZYu48KEbTcE&t=30s&ab_channel=SnowboardProCamp"
+                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a toe-edge slide is"
+                    target="_blank">toe-edge</a></label>
+            <input type="checkbox" name="skill-2" value="toe-edge">
+            <br>
+            <label for="skill-3">I can <a
+                    href="https://www.youtube.com/watch?v=FyZ1RWKJSug&t=138s&ab_channel=SnowboardProCamp"
+                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to link turns"
+                    target="_blank">link</a>
+                turns
+                on green runs</label>
+            <input type="checkbox" name="skill-3" value="green-runs">
+            <br>
+            <label for="skill-4">I can link turns on blue runs</label>
+            <input type="checkbox" name="skill-4" value="blue-runs">
+            <br>
+            <label for="skill-5">I can link turns on black runs</label>
+            <input type="checkbox" name="skill-5" value="black-runs">
+            <br>
+            <label for="skill-6">I can link turns on double-black runs</label>
+            <input type="checkbox" name="skill-6" value="double-black-runs">
+            <br>
+            <input type="submit" value="book">
         </form>
 
     </main>
