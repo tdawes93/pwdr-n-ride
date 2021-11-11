@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -294,7 +295,6 @@ div h2 {
     width: 100vw;
     overflow-y: hidden;
     overflow-x: scroll;
-    
 }
 
 .container {
@@ -306,8 +306,16 @@ div h2 {
 .photo {
     height: 50vh;
     width: 100vw;
-    border: 2px solid black;
-    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(105, 138, 155, 0.5);
+    color: #fdfdfd;
+    width: inherit;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s ease-in;
 }
 
 #photo-1 {
@@ -326,3 +334,18 @@ div h2 {
     background: url(/assets/images/daniel-lincoln-UNGYOAr0w5k-unsplash.jpg) no-repeat center center/cover;
 }
 
+#photo-1:hover .overlay {
+    opacity: 1;
+}
+
+#photo-2:hover .overlay {
+    opacity: 1;
+}
+
+#photo-3:hover .overlay {
+    opacity: 1;
+}
+
+#photo-4:hover .overlay {
+    opacity: 1;
+}
