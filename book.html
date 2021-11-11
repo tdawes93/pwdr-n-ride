@@ -48,16 +48,52 @@
     <main>
         <form action="POST">
             <label for="class-choice">Which class/event are you wishing to book?</label>
-            <select name="class-choice" id="">
-                <option value="Half-day Lesson">Half-day Lesson</option>
-                <option value="Full-day Lesson">Full-day Lesson</option>
+            <select name="class-choice" id="class-choice" required>
+                <option value="Half-day Private Lesson">Half-day Private Lesson</option>
+                <option value="Full-day Private Lesson">Full-day Private Lesson</option>
+                <option value="Half-day Group Lesson">Half-day Group Lesson</option>
+                <option value="Full-day Group Lesson">Full-day Group Lesson</option>
                 <option value="Half-day Group Ride">Half-day Group Ride</option>
                 <option value="Full-day Group Ride">Full-day Group Ride</option>
+                <option value="Half-day Park Lesson">Half-day Park Lesson</option>
+                <option value="Full-day Park Lesson">Full-day Park Lesson</option>
             </select>
-            <label for="fname">First Name</label>
-            <input type="text">
-            <label for="lname">Surname</label>
-            <input type="text">
+            <label for="fname">First Name:</label>
+            <input type="text" required>
+            <label for="lname">Surname:</label>
+            <input type="text" required>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">Phone Number (please include country code): +</label>
+            <input type="tel" name="phone" id="phone" required>
+            <label for="date">Lesson/Event Date</label>
+            <input type="date" name="lesson-date" id="lesson-date" required>
+            <label for="instructor-request">Instructor Request (info about our instructors can be found on our <a
+                    href="">Explore</a> page):</label>
+            <select name="instructor-request" id="instructor-request" required>
+                <option value="Tom">Tom</option>
+                <option value="Autumn">Autumn</option>
+                <option value="Jeff">Jeff</option>
+                <option value="No-preference">No Preference</option>
+            </select>
+            <p>The next section will ask you about your ability levels. If you are unsure about some of the terms, links to videos are provided.</p>
+            <label for="ability">Are you able to do the following? (tick all that apply):</label> 
+            <label for="skill-1">I can side slip on my heel-edge</label>
+            <input type="checkbox" for="skill-1" value="heel-edge">
+            <label for="skill-2">I can side slip on my toe-edge</label>
+            <input type="checkbox" for="skill-2" value="toe-edge">
+            <label for="skill-3">I can do a heel-turn</label>
+            <input type="checkbox" for="skill-3" value="heel-turn">
+            <label for="skill-4">I can do a toe-turn</label>
+            <input type="checkbox" for="skill-4" value="toe-turn">
+            <label for="skill-5">I can link turns on green runs</label>
+            <input type="checkbox" for="skill-5" value="green-runs">
+            <label for="skill-6">I can link turns on blue runs</label>
+            <input type="checkbox" for="skill-6" value="blue-runs">
+            <label for="skill-7">I can link turns on black runs</label>
+            <input type="checkbox" for="skill-7" value="black-runs">
+            <label for="skill-8">I can link turns on double-black runs</label>
+            <input type="checkbox" for="skill-8" value="double-black-runs">
         </form>
 
     </main>
@@ -69,39 +105,37 @@
 
     <footer class="layout">
         <div class="contact" id="follow">
-                <h2>Pwdr News</h2>
-                <p id="powder-news">Get deals, events, news and more dropped in your inbox!
-                    <form target="_blank" method="POST" autocomplete="on" name="newsletter" id="newsletter">
-                        <input type="email" name="email" id="email" placeholder="Email Address" class="newsletter"
-                            required>
-                        <br>
-                        <input type="submit" value="Subscribe!" id="subscribe" class="newsletter">
-                    </form>
-                </p>
+            <h2>Pwdr News</h2>
+            <p id="powder-news">Get deals, events, news and more dropped in your inbox!
+                <form target="_blank" method="POST" autocomplete="on" name="newsletter" id="newsletter">
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="newsletter" required>
+                    <br>
+                    <input type="submit" value="Subscribe!" id="subscribe" class="newsletter">
+                </form>
+            </p>
 
-           <!--Social Media links-->
-                <h2>Follow Us</h2>
-                <ul id="social-media">
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Link to our facebook page, opens in new tab"><i
-                                class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Link to our instagram page, opens in new tab"><i
-                                class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Link to our twitter page, opens in new tab"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Link to our youtube page, opens in new tab"><i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
+            <!--Social Media links-->
+            <h2>Follow Us</h2>
+            <ul id="social-media">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Link to our facebook page, opens in new tab"><i
+                            class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Link to our instagram page, opens in new tab"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Link to our twitter page, opens in new tab"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Link to our youtube page, opens in new tab"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
 
         <!--Contact information-->
 
