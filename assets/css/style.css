@@ -11,6 +11,7 @@ body {
     font-family: Cabin, sans-serif;
     font-weight: 300;
     color: #2d2c2a;
+    background-color: #FDFBFC;
     font-size: 75%;
     letter-spacing: 2px;
 }
@@ -95,7 +96,7 @@ h1 {
     text-decoration: inherit;
     font-family: inherit;
     text-transform: uppercase;
-    color: #fdfdfd;
+    color: #fdfbfc;
     font-weight: 500;
 }
 
@@ -133,7 +134,7 @@ h3 {
 
 footer {
     background: #698A9B;
-    color: #fdfdfd;
+    color: #fdfbfc;
     height: auto;
     width: 100%;
 }
@@ -166,15 +167,15 @@ div h2 {
 
 #subscribe {
     font-family: Bebas Neue, sans-serif;
-    color: #fdfdfd;
+    color: #fdfbfc;
     background-color: transparent;
-    border: solid #fdfdfd;
+    border: solid #fdfbfc;
     font-size: 150%;
 }
 
 #subscribe:hover {
     color: #698A9B;
-    background-color: #fdfdfd;
+    background-color: #fdfbfc;
     cursor: pointer;
 }
 
@@ -188,7 +189,7 @@ div h2 {
 }
 
 #social-media a {
-    color: #fdfdfd;
+    color: #fdfbfc;
     font-size: 200%;
     margin: 1%;
     padding: 5%;
@@ -206,7 +207,7 @@ div h2 {
 
 #contact a {
     text-decoration: none;
-    color: #fdfdfd;
+    color: #fdfbfc;
 }
 
 /* Media Queries */
@@ -311,7 +312,7 @@ div h2 {
 /*.overlay {
     position: absolute;
     background: rgba(105, 138, 155, 0.5);
-    color: #fdfdfd;
+    color: #fdfbfc;
     width: inherit;
     text-align: center;
     opacity: 0;
@@ -382,7 +383,7 @@ div h2 {
 .course-name {
     position: absolute;
     background: #698A9B;
-    color: #fdfdfd;
+    color: #fdfbfc;
     width: inherit;
     text-align: center;
     z-index: 1;
@@ -408,4 +409,12 @@ div h2 {
 .course-info a {
     text-decoration: none;
     color: #2d2c2a;
+}
+
+#booking-form {
+    padding: 5px 14px;
+}
+
+#booking-form a {
+    text-decoration-line: none;
 }
