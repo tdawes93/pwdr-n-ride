@@ -349,3 +349,36 @@ div h2 {
 #photo-4:hover .overlay {
     opacity: 1;
 }
+
+/*Book page*/
+
+/*Courses on offer*/
+
+.courses {
+    width: 100vw;
+    height: 75vh;
+    padding: 0 5vw;
+}
+
+.course-image {
+    width: 100%;
+    height: 60%;
+}
+
+.course-info {
+    width: 100%;
+    height: 40%;
+}
+
+.course-name {
+    position: absolute;
+    background: #698A9B;
+    color: #fdfdfd;
+    width: 90vw;
+    text-align: center;
+    z-index: 1;
+}
+
+#group-lesson {
+    background: url(/assets/images/pexels-visit-almaty-848591.jpg) no-repeat center center/cover;
+}
