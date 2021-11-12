@@ -439,7 +439,7 @@ div h2 {
     text-decoration-line: none;
 }
 
-#booking-form input {
+.booking-form {
     border: 1px solid #2d2c2a;
     background: #fdfbfc;
 }
@@ -452,14 +452,15 @@ div h2 {
 }
 
 #send-off {
-    width: 130px;
+    width: 300px;
     height: auto;
     padding: 7px;
+    margin: 5px 0;
     border-radius: 5%;
     text-align: center;
     position: relative;
     font-family: Bebas Neue, sans-serif;
     font-size: 150%;
     color: #fdfbfc; 
-    background-color: #ea591f;
+    background: #ea591f;
 }

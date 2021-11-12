@@ -128,6 +128,7 @@
 
             <form action="POST" id="booking-form">
                 <label for="class-choice">Which class/event are you wishing to book?</label>
+                <br>
                 <select name="class-choice" id="class-choice" required>
                     <option value="Half-day-Private-Lesson">Half-day Private Lesson</option>
                     <option value="Full-day-Private-Lesson">Full-day Private Lesson</option>
@@ -140,25 +141,32 @@
                 </select>
                 <br>
                 <label for="fname">First Name:</label>
-                <input type="text" name="fname" required>
+                <br>
+                <input type="text" name="fname" class="booking-form" required>
                 <br>
                 <label for="lname">Surname:</label>
-                <input type="text" name="lname" required>
+                <br>
+                <input type="text" name="lname" class="booking-form" required>
                 <br>
                 <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" required>
+                <br>
+                <input type="email" name="email" id="email" class="booking-form" required>
                 <br>
                 <label for="age">Age:</label>
-                <input type="number" name="Age" min="4" max="99" required>
+                <br>
+                <input type="number" name="Age" min="4" max="99" class="booking-form" required>
                 <br>
                 <label for="phone">Phone Number (please include country code): +</label>
-                <input type="tel" name="phone" id="phone" required>
+                <br>
+                <input type="tel" name="phone" id="phone" class="booking-form" required>
                 <br>
                 <label for="lesson-date">Lesson/Event Date</label>
-                <input type="date" name="lesson-date" id="lesson-date" required>
+                <br>
+                <input type="date" name="lesson-date" id="lesson-date" class="booking-form" required>
                 <br>
                 <label for="instructor-request">Instructor Request (info about our instructors can be found on our <a
                         href="">Explore</a> page):</label>
+                        <br>
                 <select name="instructor-request" id="instructor-request" required>
                     <option value="Tom">Tom</option>
                     <option value="Autumn">Autumn</option>
