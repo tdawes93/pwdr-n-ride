@@ -382,7 +382,7 @@ div h2 {
 
 .course-name {
     position: absolute;
-    background: rgba(105, 138, 155, 0.5);
+    background: rgba(105, 138, 155, 0.7);
     color: #fdfbfc;
     width: inherit;
     text-align: center;
@@ -437,4 +437,29 @@ div h2 {
 
 #booking-form a {
     text-decoration-line: none;
+}
+
+#booking-form input {
+    border: 1px solid #2d2c2a;
+    background: #fdfbfc;
+}
+
+#booking-form select {
+    background: #fdfbfc;
+    font-family: Cabin, sans-serif;
+    color: #2d2c2a;
+    font-size: inherit;
+}
+
+#send-off {
+    width: 130px;
+    height: auto;
+    padding: 7px;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 150%;
+    color: #fdfbfc; 
+    background-color: #ea591f;
 }
