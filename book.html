@@ -48,128 +48,166 @@
     <main>
 
         <!--List of courses/events on offer-->
+        <section class="layout">
+            <div class="course-events-header">
+                <h2>Courses and Events on offer</h2>
+            </div>
 
-        <div class="courses">
-            <div class="course-image">
-                <a href="#booking-form">
-                    <img src="" alt="Private Snowboard Lesson">
-                </a>
+            <div class="courses">
+                <div class="course-image" id="private-lesson">
+                    <h3 class="course-name">Private Snowboard Lessons</h3>
+                </div>
+                <div class="course-info">
+                    <a href="#booking-form">Private 1-on-1 Lesson</a>
+                    <ul>
+                        <li>Full-day or Half-day</li>
+                        <li>Ages: 4-99</li>
+                        <li>Price: $250 for Full-day $150 for Half-day</li>
+                    </ul>
+                </div>
             </div>
-            <div class="course-info">
-                <a href="#booking-form">Private Lesson</a>
-                <p>Full-day or Half-day</p>
-                <p>Ages: 4-99</p>
-                <p>Price: $250 for Full-day $150 for Half-day</p>
+            <div class="courses">
+                <div class="course-image" id="group-lesson">
+                    <h3 class="course-name">Group Snowboard Lessons</h3>
+                </div>
+                <div class="course-info">
+                    <a href="#booking-form">Group Lesson with up to 6 students (including yourself)</a>
+                    <ul>
+                        <li>Full-day or Half-day</li>
+                        <li>Ages: 4-99</li>
+                        <li>Price: $150 for Full-day $80 for Half-day</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="courses">    
-            <div class="course-image" id="group-lesson">
-                <h3 class="course-name">Group Snowboard Lesson</h3>
+            <div class="courses">
+                <div class="course-image" id="group-ride">
+                    <h3 class="course-name">Group Ride Sessions</h3>
+                </div>
+                <div class="course-info">
+                    <a href="#booking-form">Explore the mountain and meet new people on our guided group ride
+                        sessions</a>
+                    <ul>
+                        <li>Up to 6 riders all of similar abilities (including yourself)</li>
+                        <li>Full-day or Half-day</li>
+                        <li>Ages: 4-99</li>
+                        <li>Price: $100 for Full-day $60 for Half-day</li>
+                    </ul>
+                </div>
             </div>
-            <div class="course-info">
-                <a href="#booking-form">Group Lesson</a>
-                <p>Full-day or Half-day</p>
-                <p>Ages: 4-99</p>
-                <p>Price: $150 for Full-day $80 for Half-day</p>
+            <div class="courses">
+                <div class="course-image" id="park-lesson">
+                    <h3 class="course-name">Group Park Lessons</h3>
+                </div>
+                <div class="course-info">
+                    <a href="#booking-form">Group Terrain Park Lessons</a>
+                    <ul>
+                        <li>Learn how to finally nail that 360 or just dip your toes in the park for the first time with
+                            our park lessons</li>
+                        <li>Up to 6 riders all of similar abilities (including yourself)</li>
+                        <li>Full-day or Half-day</li>
+                        <li>Ages: 4-99 (due to insurance reasons we cannot accept riders under 8 years of age)</li>
+                        <li>Price: $200 for Full-day $110 for Half-day</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-
+        </section>
         <!--Booking form-->
-
-        <form action="POST" id="booking-form">
-            <label for="class-choice">Which class/event are you wishing to book?</label>
-            <select name="class-choice" id="class-choice" required>
-                <option value="Half-day-Private-Lesson">Half-day Private Lesson</option>
-                <option value="Full-day-Private-Lesson">Full-day Private Lesson</option>
-                <option value="Half-day-Group-Lesson">Half-day Group Lesson</option>
-                <option value="Full-day-Group-Lesson">Full-day Group Lesson</option>
-                <option value="Half-day-Group-Ride">Half-day Group Ride</option>
-                <option value="Full-day-Group-Ride">Full-day Group Ride</option>
-                <option value="Half-day-Park-Lesson">Half-day Park Lesson</option>
-                <option value="Full-day-Park-Lesson">Full-day Park Lesson</option>
-            </select>
-            <br>
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" required>
-            <br>
-            <label for="lname">Surname:</label>
-            <input type="text" name="lname" required>
-            <br>
-            <label for="email">Email Address:</label>
-            <input type="email" name="email" id="email" required>
-            <br>
-            <label for="age">Age:</label>
-            <input type="number" name="Age" min="4" max="99" required>
-            <br>
-            <label for="phone">Phone Number (please include country code): +</label>
-            <input type="tel" name="phone" id="phone" required>
-            <br>
-            <label for="lesson-date">Lesson/Event Date</label>
-            <input type="date" name="lesson-date" id="lesson-date" required>
-            <br>
-            <label for="instructor-request">Instructor Request (info about our instructors can be found on our <a
-                    href="">Explore</a> page):</label>
-            <select name="instructor-request" id="instructor-request" required>
-                <option value="Tom">Tom</option>
-                <option value="Autumn">Autumn</option>
-                <option value="Jeff">Jeff</option>
-                <option value="No-preference">No Preference</option>
-            </select>
-            <br>
-            <br>
-            <p>The next section will ask you about your ability levels. If you are unsure about some of the terms, links
-                to videos are provided.</p>
-            <br>
-            <p>Are you able to do the following? (tick all that apply):</p>
-            <label for="skill-1">I can side slip on my <a
-                    href="https://www.youtube.com/watch?v=J8fkGN6ni84&t=64s&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a heel-edge slide is"
-                    target="_blank">heel-edge</a></label>
-            <input type="checkbox" name="skill-1" value="heel-edge">
-            <br>
-            <label for="skill-2">I can side slip on my <a
-                    href="https://www.youtube.com/watch?v=ZYu48KEbTcE&t=30s&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a toe-edge slide is"
-                    target="_blank">toe-edge</a></label>
-            <input type="checkbox" name="skill-2" value="toe-edge">
-            <br>
-            <label for="skill-3">I can <a
-                    href="https://www.youtube.com/watch?v=FyZ1RWKJSug&t=138s&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to link turns"
-                    target="_blank">link</a>
-                turns on green runs</label>
-            <input type="checkbox" name="skill-3" value="green-runs">
-            <br>
-            <label for="skill-4">I can link turns on blue runs</label>
-            <input type="checkbox" name="skill-4" value="blue-runs">
-            <br>
-            <label for="skill-5">I can link turns on black runs</label>
-            <input type="checkbox" name="skill-5" value="black-runs">
-            <br>
-            <label for="skill-6">I can link turns on double-black runs</label>
-            <input type="checkbox" name="skill-6" value="double-black-runs">
-            <br>
-            <label for="skill-7">I can perform <a
-                    href="https://www.youtube.com/watch?v=0hZG3z1EaI0&t=69s&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to do a 50-50. This is an example of a basic trick on a small feature."
-                    target="_blank">basic tricks on small features</a> and jumps in the terrain park</label>
-            <input type="checkbox" name="skill-7" value="small-features-and-jumps">
-            <br>
-            <label for="skill-8">I can perform <a
-                    href="https://www.youtube.com/watch?v=CRS_LDCOG6o&t=79s&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to ride a medium sized rail. This is an example of a basic trick on a medium feature."
-                    target="_blank">basic tricks on medium features</a> and jumps in the terrain park</label>
-            <input type="checkbox" name="skill-8" value="medium-features-and-jumps">
-            <br>
-            <label for="skill-9">I can perform <a
-                    href="https://www.youtube.com/watch?v=QHo0A9TiiH8&ab_channel=SnowboardProCamp"
-                    aria-label="Link takes you to a YouTube video by Snowboard Pro Camp hitting large jumps. This is an example of a basic trick large features"
-                    target="_blank">basic tricks on large feautres</a> and jumps in the terrain park</label>
-            <input type="checkbox" name="skill-9" value="large-features-and-jumps">
-            <br>
-            <input type="submit" value="book">
-        </form>
-
+        <section class="layout">
+            <form action="POST" id="booking-form">
+                <label for="class-choice">Which class/event are you wishing to book?</label>
+                <select name="class-choice" id="class-choice" required>
+                    <option value="Half-day-Private-Lesson">Half-day Private Lesson</option>
+                    <option value="Full-day-Private-Lesson">Full-day Private Lesson</option>
+                    <option value="Half-day-Group-Lesson">Half-day Group Lesson</option>
+                    <option value="Full-day-Group-Lesson">Full-day Group Lesson</option>
+                    <option value="Half-day-Group-Ride">Half-day Group Ride</option>
+                    <option value="Full-day-Group-Ride">Full-day Group Ride</option>
+                    <option value="Half-day-Park-Lesson">Half-day Park Lesson</option>
+                    <option value="Full-day-Park-Lesson">Full-day Park Lesson</option>
+                </select>
+                <br>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" required>
+                <br>
+                <label for="lname">Surname:</label>
+                <input type="text" name="lname" required>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" name="Age" min="4" max="99" required>
+                <br>
+                <label for="phone">Phone Number (please include country code): +</label>
+                <input type="tel" name="phone" id="phone" required>
+                <br>
+                <label for="lesson-date">Lesson/Event Date</label>
+                <input type="date" name="lesson-date" id="lesson-date" required>
+                <br>
+                <label for="instructor-request">Instructor Request (info about our instructors can be found on our <a
+                        href="">Explore</a> page):</label>
+                <select name="instructor-request" id="instructor-request" required>
+                    <option value="Tom">Tom</option>
+                    <option value="Autumn">Autumn</option>
+                    <option value="Jeff">Jeff</option>
+                    <option value="No-preference">No Preference</option>
+                </select>
+                <br>
+                <br>
+                <p>The next section will ask you about your ability levels. If you are unsure about some of the terms,
+                    links
+                    to videos are provided.</p>
+                <br>
+                <p>Are you able to do the following? (tick all that apply):</p>
+                <label for="skill-1">I can side slip on my <a
+                        href="https://www.youtube.com/watch?v=J8fkGN6ni84&t=64s&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a heel-edge slide is"
+                        target="_blank">heel-edge</a></label>
+                <input type="checkbox" name="skill-1" value="heel-edge">
+                <br>
+                <label for="skill-2">I can side slip on my <a
+                        href="https://www.youtube.com/watch?v=ZYu48KEbTcE&t=30s&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a toe-edge slide is"
+                        target="_blank">toe-edge</a></label>
+                <input type="checkbox" name="skill-2" value="toe-edge">
+                <br>
+                <label for="skill-3">I can <a
+                        href="https://www.youtube.com/watch?v=FyZ1RWKJSug&t=138s&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to link turns"
+                        target="_blank">link</a>
+                    turns on green runs</label>
+                <input type="checkbox" name="skill-3" value="green-runs">
+                <br>
+                <label for="skill-4">I can link turns on blue runs</label>
+                <input type="checkbox" name="skill-4" value="blue-runs">
+                <br>
+                <label for="skill-5">I can link turns on black runs</label>
+                <input type="checkbox" name="skill-5" value="black-runs">
+                <br>
+                <label for="skill-6">I can link turns on double-black runs</label>
+                <input type="checkbox" name="skill-6" value="double-black-runs">
+                <br>
+                <label for="skill-7">I can perform <a
+                        href="https://www.youtube.com/watch?v=0hZG3z1EaI0&t=69s&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to do a 50-50. This is an example of a basic trick on a small feature."
+                        target="_blank">basic tricks on small features</a> and jumps in the terrain park</label>
+                <input type="checkbox" name="skill-7" value="small-features-and-jumps">
+                <br>
+                <label for="skill-8">I can perform <a
+                        href="https://www.youtube.com/watch?v=CRS_LDCOG6o&t=79s&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to ride a medium sized rail. This is an example of a basic trick on a medium feature."
+                        target="_blank">basic tricks on medium features</a> and jumps in the terrain park</label>
+                <input type="checkbox" name="skill-8" value="medium-features-and-jumps">
+                <br>
+                <label for="skill-9">I can perform <a
+                        href="https://www.youtube.com/watch?v=QHo0A9TiiH8&ab_channel=SnowboardProCamp"
+                        aria-label="Link takes you to a YouTube video by Snowboard Pro Camp hitting large jumps. This is an example of a basic trick large features"
+                        target="_blank">basic tricks on large feautres</a> and jumps in the terrain park</label>
+                <input type="checkbox" name="skill-9" value="large-features-and-jumps">
+                <br>
+                <input type="submit" value="book">
+            </form>
+        </section>
     </main>
 
 
