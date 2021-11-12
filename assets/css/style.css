@@ -390,11 +390,19 @@ div h2 {
 }
 
 #group-lesson {
-    background: url(/assets/images/pexels-visit-almaty-848591.jpg) no-repeat center center/cover;
+    background: url(/assets/images/hadi-yazdi-aznaveh-j4AQr_mJT7A-unsplash.jpg) no-repeat center center/cover;
 }
 
 #private-lesson {
     background: url(/assets/images/lex-valishvili-d0daXphrFlw-unsplash.jpg) no-repeat center center/cover;
+}
+
+#group-ride {
+    background: url(/assets/images/pexels-visit-almaty-848591.jpg) no-repeat center center/cover;
+}
+
+#park-lesson {
+    background: url(/assets/images/felipe-giacometti-QYp5ZXCQugU-unsplash.jpg) no-repeat center center/cover;
 }
 
 .course-info a {
