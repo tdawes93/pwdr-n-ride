@@ -43,10 +43,40 @@
         </nav>
     </header>
 
-    <!--Booking form-->
+
 
     <main>
-        <form action="POST">
+
+        <!--List of courses/events on offer-->
+
+        <div>
+            <div>
+                <a href="#booking-form">
+                    <img src="" alt="Private Snowboard Lesson">
+                </a>
+            </div>
+            <div>
+                <a href="#booking-form">Private Lesson</a>
+                <p>Full-day or Half-day</p>
+                <p>Ages: 4-99</p>
+                <p>Price: $250 for Full-day $150 for Half-day</p>
+            </div>
+            <div>
+                <a href="#booking-form">
+                    <img src="/assets/images/pexels-visit-almaty-848591.jpg" alt="Group Snowboard Lesson">
+                </a>
+            </div>
+            <div>
+                <a href="#booking-form">Group Lesson</a>
+                <p>Full-day or Half-day</p>
+                <p>Ages: 4-99</p>
+                <p>Price: $150 for Full-day $80 for Half-day</p>
+            </div>
+        </div>
+
+        <!--Booking form-->
+
+        <form action="POST" id="booking-form">
             <label for="class-choice">Which class/event are you wishing to book?</label>
             <select name="class-choice" id="class-choice" required>
                 <option value="Half-day-Private-Lesson">Half-day Private Lesson</option>
