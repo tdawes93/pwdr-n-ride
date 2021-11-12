@@ -368,26 +368,28 @@ div h2 {
 
 .course-image {
     width: 100%;
-    height: 70%;
+    height: 65%;
     position: relative;
     padding: 5px 0;
 }
 
 .course-info {
     width: 100%;
-    height: 30%;
+    height: 35%;
     text-align: center;
     padding: 5px 0;
 }
 
 .course-name {
     position: absolute;
-    background: #698A9B;
+    background: rgba(105, 138, 155, 0.5);
     color: #fdfbfc;
     width: inherit;
     text-align: center;
     z-index: 1;
     bottom: 0px;
+    opacity: 0;
+    transition: 0.5s ease-in;
 }
 
 #group-lesson {
@@ -406,9 +408,27 @@ div h2 {
     background: url(/assets/images/felipe-giacometti-QYp5ZXCQugU-unsplash.jpg) no-repeat center center/cover;
 }
 
+#group-lesson:hover .course-name {
+    opacity: 1;
+}
+#private-lesson:hover .course-name {
+    opacity: 1;
+}
+#group-ride:hover .course-name {
+    opacity: 1;
+}
+#park-lesson:hover .course-name {
+    opacity: 1;
+}
+
 .course-info a {
     text-decoration: none;
     color: #2d2c2a;
+}
+
+#form {
+    padding-bottom: 0px;
+    background: rgba(154, 153, 158, 0.4);
 }
 
 #booking-form {
