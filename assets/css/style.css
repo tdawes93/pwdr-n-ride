@@ -157,7 +157,7 @@ div h2 {
     letter-spacing: inherit;
     padding: 0.5rem 0;
     margin: 0.5rem 0;
-    width: 19rem;
+    width: 18rem;
 }
 
 #subscribe {
@@ -353,6 +353,10 @@ div h2 {
     color: #2d2c2a;
 }
 
+#booking-form div {
+    text-align: center;
+}
+
 .booking-form {
     border: 1px solid #2d2c2a;
     background: #fdfbfc;
@@ -366,7 +370,7 @@ div h2 {
 }
 
 #send-off {
-    width: 19rem;
+    width: 18rem;
     height: auto;
     padding: 0.5rem;
     margin: 0.3rem 0;
