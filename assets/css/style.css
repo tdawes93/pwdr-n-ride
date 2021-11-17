@@ -253,6 +253,18 @@ div h2 {
     background: url(../images/daniel-lincoln-UNGYOAr0w5k-unsplash.jpg) no-repeat center center/cover;
 }
 
+#photo-5 {
+    background: url(../images/cristina-munteanu-qOFS-GJme60-unsplash.jpg) no-repeat center center/cover;
+}
+
+#photo-6 {
+    background: url(../images/felipe-giacometti-DREkWB006vI-unsplash.jpg) no-repeat center center/cover;
+}
+
+#photo-7 {
+    background: url(../images/pexels-mariakray-9621115.jpg) no-repeat center center/cover;
+}
+
 #photo-1:hover .overlay {
     opacity: 1;
 }
@@ -266,6 +278,18 @@ div h2 {
 }
 
 #photo-4:hover .overlay {
+    opacity: 1;
+}
+
+#photo-5:hover .overlay {
+    opacity: 1;
+}
+
+#photo-6:hover .overlay {
+    opacity: 1;
+}
+
+#photo-7:hover .overlay {
     opacity: 1;
 }
 
