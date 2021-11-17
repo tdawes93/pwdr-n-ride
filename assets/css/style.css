@@ -222,6 +222,7 @@ div h2 {
 .photo {
     height: 60vh;
     width: 100vw;
+    position: relative;
 }
 
 .overlay{
@@ -230,6 +231,10 @@ div h2 {
     background:  rgba(105, 138, 155, .7);
     opacity: 0;
     transition: 0.5s ease-in;
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    z-index: 1;
 }
 
 #photo-1 {
@@ -319,16 +324,16 @@ div h2 {
     background: url(../images/felipe-giacometti-QYp5ZXCQugU-unsplash.jpg) no-repeat center center/cover;
 }
 
-#group-lesson:hover .course-name {
+#group-lesson:hover .overlay {
     opacity: 1;
 }
-#private-lesson:hover .course-name {
+#private-lesson:hover .overlay {
     opacity: 1;
 }
-#group-ride:hover .course-name {
+#group-ride:hover .overlay {
     opacity: 1;
 }
-#park-lesson:hover .course-name {
+#park-lesson:hover .overlay {
     opacity: 1;
 }
 
