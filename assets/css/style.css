@@ -303,13 +303,14 @@ div h2 {
 #video-4:hover .video-overlay {
     opacity: 1;
 }
+
 #video-5:hover .video-overlay {
     opacity: 1;
 }
 
 #video-6:hover .video-overlay {
     opacity: 1;
-}*/
+}
 
 /*Book page*/
 /*Courses on offer*/
@@ -475,6 +476,10 @@ div h2 {
         width: 40vw;
         max-width: 25rem;
     }
+
+    .photo {
+        width: 60vw;
+    }
 }
 
 /* For small laptops */
@@ -504,6 +509,10 @@ div h2 {
         width: 12.5rem;
         font-size: 150%;
     }
+
+    .photo {
+        width: 40vw;
+    }
 }
 
 /* For larger screens */
@@ -511,6 +520,10 @@ div h2 {
 
     #contact div {
         padding-left: 9.5vw;
+    }
+
+    .photo {
+        width: 25vw
     }
 
 }
