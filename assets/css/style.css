@@ -207,7 +207,7 @@ div h2 {
 
 /* Gallery CSS */
 .viewport {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -220,20 +220,18 @@ div h2 {
 }
 
 .photo {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
 }
 
-/*.overlay {
-    position: absolute;
-    background: rgba(105, 138, 155, 0.5);
-    color: #fdfbfc;
-    width: inherit;
+.overlay{
     text-align: center;
+    color: #fdfbfc;
+    background:  rgba(105, 138, 155, .7);
     opacity: 0;
     transition: 0.5s ease-in;
 }
-*/
+
 #photo-1 {
     background: url(../images/snowboarder-shifty.jpg) no-repeat center center/cover;
 }
@@ -249,7 +247,7 @@ div h2 {
 #photo-4 {
     background: url(../images/daniel-lincoln-UNGYOAr0w5k-unsplash.jpg) no-repeat center center/cover;
 }
-/*
+
 #photo-1:hover .overlay {
     opacity: 1;
 }
@@ -264,7 +262,7 @@ div h2 {
 
 #photo-4:hover .overlay {
     opacity: 1;
-}/*
+}
 
 /*Book page*/
 /*Courses on offer*/
