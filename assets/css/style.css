@@ -100,6 +100,7 @@ h1 {
 /*About section*/
 .layout {
     padding: 0.3rem 0;
+    height: auto;
 }
 
 .about {
@@ -504,6 +505,21 @@ div h2 {
     .photo {
         width: 60vw;
     }
+
+    .courses {
+        width: 49vw;
+        height: 60vh;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .course-image {
+        height: 40%;
+    }
+
+    .course-info {
+        height: 60%;
+    }
 }
 
 /* For small laptops */
@@ -537,6 +553,18 @@ div h2 {
     .photo {
         width: 40vw;
     }
+
+    .courses {
+        height: 80vh;
+    }
+
+    .course-image {
+        height: 50%;
+    }
+
+    .course-name {
+        height: 50%;
+    }
 }
 
 /* For larger screens */
@@ -550,4 +578,15 @@ div h2 {
         width: 25vw
     }
 
+    .courses {
+        width: 24vw;
+    }
+
+   /* .course-image {
+        height: 60%;
+    }
+
+    .course-info {
+        height: 40%;
+    }*/
 }
