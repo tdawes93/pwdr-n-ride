@@ -344,6 +344,11 @@ div h2 {
     padding: 0.3rem 1rem;
 }
 
+.course-events-header h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
 .courses {
     width: 100vw;
     height: 80vh;
@@ -424,7 +429,11 @@ div h2 {
 
 #form {
     padding-bottom: 0;
-    background: rgba(154, 153, 158, 0.4);
+    background-color: rgba(154, 153, 158, 0.4);
+}
+
+#booking-form-header {
+    border-bottom: solid;
 }
 
 #booking-form {
@@ -445,11 +454,21 @@ div h2 {
     background: #fdfbfc;
 }
 
+#booking-form h3 {
+    font-weight: 300;
+    font-size: 125%;
+    text-align: left;
+}
+
 #booking-form select {
     background: #fdfbfc;
     font-family: Cabin, sans-serif;
     color: #2d2c2a;
     font-size: inherit;
+}
+
+.skill {
+    float: right;
 }
 
 #send-off {
@@ -464,6 +483,12 @@ div h2 {
     font-size: 150%;
     color: #fdfbfc;
     background: #ea591f;
+}
+
+#send-off:hover {
+    color: #ea591f;
+    background-color: #fdfbfc;
+    cursor: pointer;
 }
 
 /* Media Queries */
@@ -581,12 +606,4 @@ div h2 {
     .courses {
         width: 24vw;
     }
-
-   /* .course-image {
-        height: 60%;
-    }
-
-    .course-info {
-        height: 40%;
-    }*/
 }
