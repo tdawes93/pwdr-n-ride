@@ -137,7 +137,7 @@
             </div>
 
             <form action="POST" id="booking-form">
-                <div>
+                <div id="personal-info">
                     <h3>Personal Information</h3>
                     <label for="fname">First Name:</label>
                     <br>
@@ -159,11 +159,11 @@
                     <br>
                     <input type="tel" name="phone" id="phone" class="booking-form" required>
                 </div>
-                <div>
+                <div id="res-info">
                     <h3>Reservation Information</h3>
                     <label for="class-choice">Which class/event are you wishing to book?</label>
                     <br>
-                    <select name="class-choice" id="class-choice" required>
+                    <select name="class-choice" id="class-choice" class="booking-form" required>
                         <option value="Half-day-Private-Lesson">Half-day Private Lesson</option>
                         <option value="Full-day-Private-Lesson">Full-day Private Lesson</option>
                         <option value="Half-day-Group-Lesson">Half-day Group Lesson</option>
@@ -182,8 +182,7 @@
                     <label for="instructor-request">Instructor Request (info about our instructors can be found on our
                         <a href=""><strong>Explore</strong></a> page) :</label>
                     <br>
-                    <br>
-                    <select name="instructor-request" id="instructor-request" required>
+                    <select name="instructor-request" id="instructor-request" class="booking-form" required>
                         <option value="Tom">Tom</option>
                         <option value="Autumn">Autumn</option>
                         <option value="Jeff">Jeff</option>
@@ -191,59 +190,59 @@
                     </select>
                     <br>
                 </div>
-                <div>
+                <div id="skill-info">
                     <h3>The next section will ask you about your ability levels. If you are unsure about some of the
                         terms, links to videos are provided.</h3>
                     <br>
                     <p>Are you able to do the following? (tick all that apply):</p>
-                    <label for="skill-1">I can side slip on my <a
+                    <input type="checkbox" name="skill-1" value="heel-edge" class="skill">
+                    <label for="skill-1" class="skill-name">I can side slip on my <a
                             href="https://www.youtube.com/watch?v=J8fkGN6ni84&t=64s&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a heel-edge slide is"
                             target="_blank"><strong>heel-edge</strong></a></label>
-                    <input type="checkbox" name="skill-1" value="heel-edge" class="skill">
                     <br>
-                    <label for="skill-2">I can side slip on my <a
+                    <input type="checkbox" name="skill-2" value="toe-edge" class="skill">
+                    <label for="skill-2" class="skill-name">I can side slip on my <a
                             href="https://www.youtube.com/watch?v=ZYu48KEbTcE&t=30s&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining what a toe-edge slide is"
                             target="_blank"><strong>toe-edge</strong></a></label>
-                    <input type="checkbox" name="skill-2" value="toe-edge" class="skill">
                     <br>
-                    <label for="skill-3">I can <a
+                    <input type="checkbox" name="skill-3" value="green-runs" class="skill">
+                    <label for="skill-3" class="skill-name">I can <a
                             href="https://www.youtube.com/watch?v=FyZ1RWKJSug&t=138s&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to link turns"
                             target="_blank"><strong>link</strong></a>
                         turns on green runs</label>
-                    <input type="checkbox" name="skill-3" value="green-runs" class="skill">
                     <br>
-                    <label for="skill-4">I can link turns on blue runs</label>
                     <input type="checkbox" name="skill-4" value="blue-runs" class="skill">
+                    <label for="skill-4" class="skill-name">I can link turns on blue runs</label>
                     <br>
-                    <label for="skill-5">I can link turns on black runs</label>
                     <input type="checkbox" name="skill-5" value="black-runs" class="skill">
+                    <label for="skill-5" class="skill-name">I can link turns on black runs</label>
                     <br>
-                    <label for="skill-6">I can link turns on double-black runs</label>
                     <input type="checkbox" name="skill-6" value="double-black-runs" class="skill">
+                    <label for="skill-6" class="skill-name">I can link turns on double-black runs</label>
                     <br>
-                    <label for="skill-7">I can perform <a
+                    <input type="checkbox" name="skill-7" value="small-features-and-jumps" class="skill">
+                    <label for="skill-7" class="skill-name">I can perform <a
                             href="https://www.youtube.com/watch?v=0hZG3z1EaI0&t=69s&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to do a 50-50. This is an example of a basic trick on a small feature."
                             target="_blank"><strong>basic tricks on small features</strong></a> and jumps in the terrain
                         park</label>
-                    <input type="checkbox" name="skill-7" value="small-features-and-jumps" class="skill">
                     <br>
-                    <label for="skill-8">I can perform <a
+                    <input type="checkbox" name="skill-8" value="medium-features-and-jumps" class="skill">
+                    <label for="skill-8" class="skill-name">I can perform <a
                             href="https://www.youtube.com/watch?v=CRS_LDCOG6o&t=79s&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp explaining how to ride a medium sized rail. This is an example of a basic trick on a medium feature."
                             target="_blank"><strong>basic tricks on medium features</strong></a> and jumps in the
                         terrain park</label>
-                    <input type="checkbox" name="skill-8" value="medium-features-and-jumps" class="skill">
                     <br>
-                    <label for="skill-9">I can perform <a
+                    <input type="checkbox" name="skill-9" value="large-features-and-jumps" class="skill">
+                    <label for="skill-9" class="skill-name">I can perform <a
                             href="https://www.youtube.com/watch?v=QHo0A9TiiH8&ab_channel=SnowboardProCamp"
                             aria-label="Link takes you to a YouTube video by Snowboard Pro Camp hitting large jumps. This is an example of a basic trick large features"
                             target="_blank"><strong>basic tricks on large feautres</strong></a> and jumps in the terrain
                         park</label>
-                    <input type="checkbox" name="skill-9" value="large-features-and-jumps" class="skill">
                     <br>
                 </div>
                 <div>
