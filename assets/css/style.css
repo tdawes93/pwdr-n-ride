@@ -64,8 +64,6 @@ h1 {
     background-color: #698A9B;
 }
 
-/*need to fix why hover doesn't cover full width of a element*/
-
 .selected {
     background-color: #698A9B;
 }
@@ -97,7 +95,7 @@ h1 {
     font-weight: 500;
 }
 
-/*About section*/
+/*About section and Explore Page*/
 .layout {
     padding: 0.3rem 0;
     height: auto;
@@ -125,6 +123,39 @@ h3 {
 
 .about li {
     list-style-type: none;
+}
+
+#trail-map li {
+    list-style: circle inside;
+}
+
+.date {
+    width: 100%;
+    background: #698A9B;
+    color: #fdfbfc;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.event {
+    text-align: center;
+    width: 90vw;
+    height: 40vh;
+    background-color: rgba(154, 153, 158, 0.4);
+    margin-bottom: 2rem;
+}
+
+.event-photo {
+    width: 100%;
+    height: 30vh;
+}
+
+#demo-day {
+    background: url(../images/j-gowell-0jAFl7QI5nA-unsplash.jpg) no-repeat center center/cover;
+}
+
+#xmas-day {
+    background: url(../images/jakob-owens-eDnJQL21amc-unsplash.jpg) no-repeat center center/cover;
 }
 
 /* Footer */
