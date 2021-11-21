@@ -631,6 +631,14 @@ div h2 {
     .event-info {
         height: 40%;
     }
+
+    #personal-info, #res-info {
+        width: 49%;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        padding-top: 1rem;
+    }
 }
 
 /*For larger tablets*/
@@ -713,12 +721,12 @@ div h2 {
     }
 
     .month {
-        width: 49.5vw;
+        width: 49vw;
         display: inline-block;
     }
 
     .event {
-        width: 24vw;
+        width: 23vw;
     }
 
     .event-photo {
