@@ -618,7 +618,7 @@ div h2 {
     }
 
     .event {
-        width: 49vw;
+        width: 49.5%;
         height: 45vh;
         display: inline-block;
         vertical-align: top;
@@ -726,7 +726,7 @@ div h2 {
     }
 
     .event {
-        width: 23vw;
+        width: 49.5%;
     }
 
     .event-photo {
