@@ -257,7 +257,7 @@ div h2 {
 /* Gallery CSS */
 .viewport {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     overflow-y: hidden;
     overflow-x: scroll;
     visibility: hidden;
@@ -721,13 +721,13 @@ div h2 {
     }
 
     .month {
-        width: 49vw;
+        width: 48vw;
         display: inline-block;
         margin-left: 1rem;
     }
 
     .event {
-        width: 49.5%;
+        width: 49%;
     }
 
     .event-photo {

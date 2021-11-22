@@ -74,9 +74,11 @@ The live website can be found here (link to site)
 
     - The first carousel is for varying photos of events taking place. It is easily scrollable horizontally on all devices creating ease of use for the user. 
 
-    - The second carousel is for different videos of events and members. The first video plays automatically but is muted for good user experience. 
+    - The second carousel is for different videos of events and members. The first video plays automatically but is muted for good user experience. The videos are set to loop automatically once played, to encourage users to watch them again.
 
 #### Explore Page
+
+- This page has additional information that might be useful to the users. This includes information about the instructors, upcoming events, links to snowboard hire, weather and snow updates and trail maps.
 
 #### Booking Page
 
