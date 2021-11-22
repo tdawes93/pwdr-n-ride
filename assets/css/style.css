@@ -723,6 +723,7 @@ div h2 {
     .month {
         width: 49vw;
         display: inline-block;
+        margin-left: 1rem;
     }
 
     .event {
