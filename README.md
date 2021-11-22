@@ -78,7 +78,13 @@ The live website can be found here (link to site)
 
 #### Explore Page
 
-- This page has additional information that might be useful to the users. This includes information about the instructors, upcoming events, links to snowboard hire, weather and snow updates and trail maps.
+- This page has additional information that might be useful to the users. This includes information about the instructors, upcoming events and equipment hire as well as links to weather and snow updates and trail maps.
+
+- The information about instructors adds a personal touch which allows users to feel more connected with the brand.
+
+- The events calender is laid out in a block/photo format making it easy to see the event name and date.
+
+- The links to weather updates and trail maps are easy to find and increase the potential foot traffic through the site as these pages are often difficult to find on other websites
 
 #### Booking Page
 
