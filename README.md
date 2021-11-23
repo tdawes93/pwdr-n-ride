@@ -73,6 +73,16 @@ The live website can be found here (link to site)
 
 #### Differences in finished site to inital design 
 
+1. The initial design was to have the weather and snow updates embedded within the site, but due to restrictions from the live websites from the ski hill this was not implemented. 
+
+    Instead links to the relevant section of this 3rd party site were provided.
+
+2. It was intended to implement the footer as shown in the wireframes, where the newsletter took up 100% of the screen width for tablets, with the social media and contact us underneath as inline-block divs. 
+
+     Due to the length of content of the contact us div it was decided to style them using the desktop design for both tablets and desktops. 
+
+
+
 #### Limitations
 
 ## Features
@@ -163,8 +173,24 @@ The live website can be found here (link to site)
     - Coolers.co
     - balsamiq Wireframes
     - Google Dev Tools
+    - Lighthouse
 
 ## Testing
+
+### Validator Testing
+
+- HTML 
+    - The official W3C validator came back with two errors. 
+
+    ![W3C Validator Results](https://github.com/tdawes93/pwdr-n-ride/blob/main/readme.md-images/Select%20element%20issue.jpg) 
+
+    - These two issues were fixed as follows:
+        1.  Add additional "option" element nested inside the "select" elements.
+        2. These "option" elements have a value of "" and the are given the attributes "disabled selected hidden".
+        3. The disabled attribute stops users from selecting the value, the selected shows the placeholder inside the dropdown menu and the hidden removes the value when the user goes to select their desired option.
+
+- CSS
+    - The official Jigsaw validator was used and came back with no errors.
 
 ## Deployment 
 
