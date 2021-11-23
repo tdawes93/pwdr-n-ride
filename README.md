@@ -71,6 +71,19 @@ The live website can be found here (link to site)
 
 #### Wireframes/Skeleton
 
+##### Home Page
+![Home Page Wireframe](assets/wireframes/homepage-wireframe.png)
+
+##### Gallery Page
+![Gallery Page Wireframe](assets/wireframes/gallery-wireframe.png)
+
+##### Explore Page
+![Explore Page Wireframe](assets/wireframes/explore-wireframe.png)
+
+##### Booking Page
+![Booking Page Wireframe](assets/wireframes/book-wireframe.png)
+
+
 #### Differences in finished site to inital design 
 
 1. The initial design was to have the weather and snow updates embedded within the site, but due to restrictions from the live websites from the ski hill this was not implemented. 
@@ -81,9 +94,9 @@ The live website can be found here (link to site)
 
      Due to the length of content of the contact us div it was decided to style them using the desktop design for both tablets and desktops. 
 
-
-
 #### Limitations
+
+As this is a front-end site made solely from HTML and CSS the booking form and newsletter signup will not store data.
 
 ## Features
 
@@ -162,18 +175,18 @@ The live website can be found here (link to site)
 ## Technologies
 
 - Languages used:
-    - HTML
-    - CSS
+    - HTML was the main language used for structure and layout
+    - CSS was used the style the website
 
 - Tools:    
-    - Font Awesome
-    - Gitpod
-    - Github
-    - Google Fonts
-    - Coolers.co
-    - balsamiq Wireframes
-    - Google Dev Tools
-    - Lighthouse
+    - Font Awesome was used for the icons for the social media links
+    - Gitpod was used as an online IDE
+    - Github was used as the repository for the source code
+    - Google Fonts was used for selecting the font styles
+    - Coolers.co was used for creating the colour palette, extracting the main colours from the hero image
+    - Balsamiq Wireframes was used to create the wireframes in the Structure section of the design
+    - Google Dev Tools was used for debugging throughout development and prior to depolyment 
+    - Lighthouse was used to audit the website for quality and accessibility 
 
 ## Testing
 
@@ -182,7 +195,7 @@ The live website can be found here (link to site)
 - HTML 
     - The official W3C validator came back with two errors. 
 
-    ![W3C Validator Results](https://github.com/tdawes93/pwdr-n-ride/blob/main/readme.md-images/Select%20element%20issue.jpg) 
+    ![W3C Validator Results](assets/readme.md-images/w3c-validator.jpg) 
 
     - These two issues were fixed as follows:
         1.  Add additional "option" element nested inside the "select" elements.
