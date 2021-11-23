@@ -53,6 +53,8 @@ The live website can be found here (link to site)
 
 - The majority of the text is coloured in Jet #2D2C2A to add contrast and clarity to the text.
 
+![Colour Scheme](/assets/readme.md-images/PwdrNRide_colourpalette.png)
+
 #### Typography
 
 - Bebas-Neue is used for the headers throughout the site. It is a clean uniform font similar in style to those found on popular snowboard art work.
@@ -170,7 +172,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 ### Future Features/Features in Implement
 
-- What didn't I implement but could have
+- A member photo and video sharing page could be added to allow additional conectivity between users.
+- A review or feedback form could also be added for users who had purchased lessons or attended events. 
 
 ## Technologies
 
@@ -209,9 +212,31 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 ### Github Pages
 
+The project is hosted by Github and deployed using the following steps:
+
+1. Log in to Github and locate the [Pwdr'N'Ride Repository](https://github.com/tdawes93/pwdr-n-ride)
+2. Click the settings button on the menu
+3. Click 'Pages' on the list on the right or scroll down until you reach 'Github Pages' and click the link
+4. Under 'Sources' select 'main' on the drop-down called 'None' and click save
+5. The page will refresh with a link to the depolyed site at the top, click this to go to the live website.
+
 ### Fork the github
 
-### make local clone
+If you wish to view or make changes without affecting the original repository you can 'fork the repository'. This creates a copy to your github and can be done using the following steps:
+
+1. Log in to Github and locate the [Pwdr'N'Ride Repository](https://github.com/tdawes93/pwdr-n-ride)
+2. At the top right of the repository underneath the notification icon is the 'fork' button
+3. Click this button and you should now have a copy of the repository in your Github account
+
+### Make local clone
+
+1. Log in to Github and locate the [Pwdr'N'Ride Repository](https://github.com/tdawes93/pwdr-n-ride)
+2. At the top of the repository next to the 'Gitpod' button click the dropdown named 'Code'
+3. To clone the repository using HTTPS, make sure HTTPS is selected and copy the link
+4. Open the Git Bash
+5. Change the working directory to the location you wish the clone to be made
+6. Type 'git clone' and paste the copied URL
+7. Press 'Enter' and your local clone will be created
 
 ## Credits
 
