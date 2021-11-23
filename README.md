@@ -4,7 +4,10 @@ This website was built for a new snowboarding school based in Banff, Canada. The
 
 This website was made as fulfillment of the Milestone Project 1 for the Full-Stack Software Development Course provided by Code Institute. It was made solely using HTML and CSS with good User Design at the forefront of the focus. 
 
-The live website can be found here (link to site)
+The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
+
+
+![Responsive Website](assets/readme.md-images/Responsive-test.png)
 
 ## Table of Contents
 
@@ -173,7 +176,7 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 ### Future Features/Features in Implement
 
 - A member photo and video sharing page could be added to allow additional conectivity between users.
-- A review or feedback form could also be added for users who had purchased lessons or attended events. 
+- A review or feedback form could also be added for users who have purchased lessons or attended events. 
 
 ## Technologies
 
