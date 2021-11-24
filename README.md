@@ -35,6 +35,9 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
     - [Validator Testing](#Validator-Testing)
     - [Issues/Bugs Resolved During Testing](#Issues/Bugs-Resolved-During-Testing)
     - [Issues Not Resolved](#Issues-Not-Resolved)
+    - [Testing User Stories](#Testing-User-Stories)
+
+****
 
 ## UX Design 
 
@@ -69,7 +72,29 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
 ### Structure
 
-- A navigation bar will be on all pages with links to each page. This fulfills the user story
+- A navigation bar will be on all pages with links to each page. Nav bar titles will be Home, Gallery, Explore, Book and Contact. This fulfills the user stories:
+    - > "I want to understand the purpose of the website and the services on offer"
+    - > "I want to be able to easily navigate the website"
+- The homepage will provide a basic intro and a overview of courses. This fulfills the user story:
+    - >"I want to understand the purpose of the website and the services on offer"
+- The use of CSS and media queries will make the website responsive. The inital design will be for mobile devices and the responsive design will ensure the layout changes as the screen size increases. This fulfills the user story:
+    - >"I want to be able to view the website on all devices"
+- A footer will be on all pages with a newsletter, contact information and social media links. This fulfills the user stories:
+    - >"I want to be able to easily navigate the website and find the social media links"
+    - >"I want to be able to contact the business to request further information"
+    - >"I want to sign up to the newsletter so I can receive updates and potential deals"
+- The Gallery page will contain two media carousels, one for photos and one for videos. There will be a horizontal scroll bar enabling the user to scroll between the images/videos. This will fulfill user stories:
+    - >"I want to see and watch initial photos/videos to get me inspired"
+    - >"I want to check for any new photos or videos uploaded"
+- The Book page will contain a form requesting information to book the relevant lessons or events. In this form will be an abilities section, which will contain links to YouTube videos explaining the required skills. It will also will also contain more specific information on lessons. This will fulfill the user story: 
+    - >"I want to be able to book lessons online"
+    - >"I want to see courses on offer with prices to quickly decide if it is right for me"
+- The Explore page will contain information on the team, upcoming events and more detailed information on snow reports and equipement hire. This fulfills user stories:
+    - >"I want to find information on how I can hire equipment"
+    - >"I want to be able to check for upcoming events and competitions"
+    - >"I want to be able to find information on snow conditions and trail maps"
+
+
 
 ### Design
 
@@ -127,6 +152,8 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 ### Limitations
 
 As this is a front-end site made solely from HTML and CSS the booking form and newsletter signup will not store data.
+
+***
 
 ## Features
 
@@ -205,6 +232,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 - A play button over the videos
 - Carousel that expands/progress bar for media
 
+***
+
 ## Technologies
 
 - Languages
@@ -221,6 +250,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - Google Dev Tools was used for debugging throughout development and prior to depolyment 
     - Lighthouse was used to audit the website for quality and accessibility 
 
+***
+
 ## Testing
 
 ### Overview
@@ -232,6 +263,21 @@ In addition the deployed site will be tested directly on different devices. The 
     - Google Pixel 3a phone
     - Iphone XR
     - 
+
+Testing will look for the following:
+
+- All elements will remain where designed for all screen widths, with no overlapping or mis-alignment
+- All links will direct correctly with external links opening in a new browser tab
+- Photo titles will appear when hovered over or click upon (for handheld devices)
+- The form inputs take the correct information type and are required
+- Media shows clearly and is not distorted
+- HTML and CSS will be validated using W3C and Jigsaw
+- All pages will have a Lighthouse report generated to test for
+    - Performance
+    - Accesibility
+    - Good Practices
+    - SEO
+- The User Stories from the UX Design section will also be tested
 
 ### Validator Testing
 
@@ -261,6 +307,10 @@ This was fixed by placing the 'input' tags inside the 'label' tags, placing the 
 
 ### Issues not resolved
 - The hero image becomes blurry and pixelated when viewed on larger screens (roughly >770px width). This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path.
+
+### Testing User Stories
+
+***
 
 ## Deployment 
 
@@ -292,6 +342,8 @@ If you wish to view or make changes without affecting the original repository yo
 6. Type 'git clone' and paste the copied URL
 7. Press 'Enter' and your local clone will be created
 
+***
+
 ## Credits
 
 - Content
@@ -307,5 +359,7 @@ If you wish to view or make changes without affecting the original repository yo
 - Media
     - The videos linked in the 'Booking Form' are the property of [Snowboard Pro Camp](https://www.snowboardprocamp.com/). Permission was obtained to use these videos.
     - All other photos and videos were either downloaded from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), or owned by myself.
+
+***
 
 ## Acknowledgments
