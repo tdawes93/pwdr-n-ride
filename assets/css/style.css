@@ -543,16 +543,20 @@ div h2 {
     padding-bottom: 1rem;
 }
 
-.skill {
-   /* float: left;*/
-    margin-right: 1rem;
+.skill-name {
+    display: block;
+    margin-left: 1rem;
+    text-indent: -1.3rem;
     margin-top: 1rem;
 }
 
-.skill-name {
-    display: inline-block;
-    width: 80vw;
-    margin-top: 1rem;
+.skill {
+    vertical-align: middle;
+ }
+
+.skill-name span {
+    vertical-align: middle;
+    margin-left: 0.3rem;
 }
 
 #book-button {
