@@ -234,6 +234,18 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 - CSS
     - The official Jigsaw validator was used and came back with no errors.
 
+
+Issues resolved during testing
+ - a tag in booking page linking to 'Explore Page' wasn't working. This was resolved by updating href
+- Gallery page width was greater than screen width, this was resolved by changing ' div class="viewport" ' width from 100vw to 100%
+- Videos in gallery did not load when site was originally depolyed. This was fixed by changing the relative file path in gallery.html to remove the / at the beginning of each file path. 
+- Once the site was deployed the checkboxes on the 'booking form' did not line up with the labels when viewed on mobile devices
+- The 
+
+Issues not resolved
+- Hero image is blurry and pixelated when viewed on larger screens. This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path
+
+
 ## Deployment 
 
 ### Github Pages

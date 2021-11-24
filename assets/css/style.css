@@ -544,7 +544,7 @@ div h2 {
 }
 
 .skill {
-    float: left;
+   /* float: left;*/
     margin-right: 1rem;
     margin-top: 1rem;
 }
