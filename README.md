@@ -305,8 +305,10 @@ Testing will look for the following:
 
 This was fixed by placing the 'input' tags inside the 'label' tags, placing the text within it's own span and using CSS to 'vertical-align: middle; ' the input and span.
 
+- The hero image was blurry and pixelated when viewed on larger screens (roughly >770px width). This is due to the image being a screenshot rather than the original file. This was resolved by changing the image for one of a higher resolution
+
 ### Issues not resolved
-- The hero image becomes blurry and pixelated when viewed on larger screens (roughly >770px width). This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path.
+
 
 ### Testing User Stories
 
