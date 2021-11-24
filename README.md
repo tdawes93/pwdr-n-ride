@@ -235,12 +235,15 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - The official Jigsaw validator was used and came back with no errors.
 
 
-Issues resolved during testing
- - a tag in booking page linking to 'Explore Page' wasn't working. This was resolved by updating href
-- Gallery page width was greater than screen width, this was resolved by changing ' div class="viewport" ' width from 100vw to 100%
-- Videos in gallery did not load when site was originally depolyed. This was fixed by changing the relative file path in gallery.html to remove the / at the beginning of each file path. 
-- Once the site was deployed the checkboxes on the 'booking form' did not line up with the labels when viewed on mobile devices
-- The 
+### Issues/Bugs resolved during testing
+ - Within the booking form the 'a' tag linking to 'Explore Page' wasn't working. This was resolved by updating href attribute.
+- The gallery page width was greater than screen width for all devices, this was resolved by changing ' div class="viewport" ' width from 100vw to 100%.
+- The videos in gallery did not load when site was originally depolyed. This was fixed by changing the relative file path in gallery.html to remove the / at the beginning of each file path. 
+- Once the site was deployed the checkboxes on the 'booking form' did not line up with the labels when viewed on mobile devices. 
+***
+![Booking Form Alignment](assets/readme.md-images/Checkbox_label_alignment_issue.jpeg)
+
+This was fixed by placing the 'input' tags inside the 'label' tags, placing the text within it's own span and using CSS to 'vertical-align: middle; ' the input and span.
 
 Issues not resolved
 - Hero image is blurry and pixelated when viewed on larger screens. This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path
@@ -285,6 +288,8 @@ If you wish to view or make changes without affecting the original repository yo
     - The code for the Nav bar, Social Media links and hero image was taken from Code Institue's Love Running Project. 
 
     - The code for image title overlays was taken and adapted from w3schools instructional page [How TO - Image Overlay Title](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp).
+
+    - The code to fix the alignment of the checkboxes and respective labels in book.html was taken from [Nathan Bowers](https://stackoverflow.com/users/60453/nathan-bowers) and his answer on a Stack Overflow forum. 
 
 - Media
     - The videos linked in the 'Booking Form' are the property of [Snowboard Pro Camp](https://www.snowboardprocamp.com/). Permission was obtained to use these videos.
