@@ -69,6 +69,13 @@ h1 {
 }
 
 /*hero image and book now button*/
+
+#main {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 #hero {
     height: 70vh;
     width: 100%;
@@ -81,9 +88,9 @@ h1 {
     background-color: #ea591f;
     padding: 0.5rem;
     border-radius: 5%;
+    bottom: 0;
     position: absolute;
-    top: 22rem;
-    left: 2rem;
+    text-align: center;
 }
 
 #book a {
