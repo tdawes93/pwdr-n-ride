@@ -294,6 +294,12 @@ Testing will look for the following:
 - CSS
     - The official Jigsaw validator was used and came back with no errors.
 
+### Lighthouse Report
+- Lighthouse Reports for all pages were run on both mobile and desktop devices. All areas tested: Performances, Accesibility, Good Practices and SEO were reported to be in the good range 90-100.
+
+![Lighthouse Report Desktop](lighthouse-report-desktop.png)
+
+![Lighthouse Report Mobile](lighthouse-report-mobile.png)
 
 ### Issues/Bugs resolved during testing
  - Within the booking form the 'a' tag linking to 'Explore Page' wasn't working. This was resolved by updating href attribute.
