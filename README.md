@@ -297,9 +297,9 @@ Testing will look for the following:
 ### Lighthouse Report
 - Lighthouse Reports for all pages were run on both mobile and desktop devices. All areas tested: Performances, Accesibility, Good Practices and SEO were reported to be in the good range 90-100.
 
-![Lighthouse Report Desktop](lighthouse-report-desktop.png)
+![Lighthouse Report Desktop](assets/readme.md-images/lighthouse-report-desktop.png)
 
-![Lighthouse Report Mobile](lighthouse-report-mobile.png)
+![Lighthouse Report Mobile](assets/readme.md-images/lighthouse-report-mobile.png)
 
 ### Issues/Bugs resolved during testing
  - Within the booking form the 'a' tag linking to 'Explore Page' wasn't working. This was resolved by updating href attribute.
@@ -317,6 +317,33 @@ This was fixed by placing the 'input' tags inside the 'label' tags, placing the 
 
 
 ### Testing User Stories
+
+The users stories explained in the UX Design section were tested to ensure they work as intended and are easy for the users to achieve. 
+
+As a first time visitor I want:
+
+1. To understand the purpose of the website and the services on offer
+    - Upon entering the site the imediate image of a man snowboarding tells user the theme is snowboarding. This is supported by an about section underneath
+2. To see courses on offer with prices to quickly decide if it is right for me
+    - The homepage has a breif description of courses
+    - The first section of the book page has a description of courses along with costs and other information 
+3. To see and watch initial photos/videos to get me inspired
+    - Clicking on the gallery button in the nav bar takes the user straight to a selection of images and videos
+    - There are also images throughout the site
+4. To be able to view the website on all devices
+    - Testing was performed across a variety of devices and browers, all which maintain design and function
+5. To be able to easily navigate the website and find the social media links
+    - The nav bar is easy to locate at the top of each page. The links are clearly named and there are various other "quick links" throughout the website, which are clear to the location.
+
+As a returning visitor I want:
+
+1. To be able to book lessons online
+    - The user is greeted on the homepage with a bright "book now" button. This takes the user to the book page, where they can see different lesson options and make an enquiry using the booking form attached
+2. To be able to contact the business to request further information
+    - The footer on all pages has the contact information (mail, phone and address). In addition there is a link in the nav bar that takes the user straight to this information
+- To find information on how I can hire equipment
+
+
 
 ***
 
