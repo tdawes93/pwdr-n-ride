@@ -11,6 +11,29 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
 ## Table of Contents
 
+- [UX Desgin](#UX-Design)
+    - [User Stories](#User-Stories)
+    - [Structure](#Structure)
+    - [Design](#Design)
+        - [Colour Scheme](#Colour-Scheme)
+        - [Typography](#Typography)
+        - [Imagery](#Imagery)
+    - [Wireframes/Skeleton](#Wireframes/Skeleton)
+    - [Differences in finished site](#Differences-in-finished-site-to-initial-design)
+    - [Limitations](#Limitations)
+- [Features](#Features)
+    - [Home Page](#Home-Page)
+    - [Gallery](#Gallery)
+    - [Explore Page](#Explore-Page)
+    - [Booking Page](#Booking-Page)
+    - [Future Features](#Future-Features-to-Implement)
+- [Technologies](#Technologies)
+    - [Languages](#Languages)
+    - [Tools](#Tools)
+- [Testing](#Testing)
+
+
+
 ## UX Design 
 
 ### User Stories
@@ -74,7 +97,7 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
 - The images have been resized to be responsive and their placement varies depending on the device used.
 
-#### Wireframes/Skeleton
+### Wireframes/Skeleton
 
 ##### Home Page
 ![Home Page Wireframe](assets/wireframes/homepage-wireframe.png)
@@ -89,7 +112,7 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 ![Booking Page Wireframe](assets/wireframes/book-wireframe.png)
 
 
-#### Differences in finished site to inital design 
+### Differences in finished site to inital design 
 
 1. The initial design was to have the weather and snow updates embedded within the site, but due to restrictions from the live websites from the ski hill this was not implemented. 
 
@@ -99,7 +122,7 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
      Due to the length of content of the contact us div it was decided to style them using the desktop design for both tablets and desktops. 
 
-#### Limitations
+### Limitations
 
 As this is a front-end site made solely from HTML and CSS the booking form and newsletter signup will not store data.
 
@@ -173,18 +196,18 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
     - The booking form allows the user to specify what class they would like to attend and when. It also has a section to assess their ability with external links to some basic snowboarding moves for reference. 
 
-### Future Features/Features in Implement
+### Future Features to Implement
 
 - A member photo and video sharing page could be added to allow additional conectivity between users.
 - A review or feedback form could also be added for users who have purchased lessons or attended events. 
 
 ## Technologies
 
-- Languages used:
+- Languages
     - HTML was the main language used for structure and layout
     - CSS was used the style the website
 
-- Tools:    
+- Tools    
     - Font Awesome was used for the icons for the social media links
     - Gitpod was used as an online IDE
     - Github was used as the repository for the source code
@@ -242,5 +265,17 @@ If you wish to view or make changes without affecting the original repository yo
 7. Press 'Enter' and your local clone will be created
 
 ## Credits
+
+- Content
+    - [Sunshine](https://www.skibanff.com/), [Lake Louise](https://www.skilouise.com/) and [Whistler](https://www.whistler.com/) ski schools as general inspiration for content and layout.
+
+- Code
+    - The code for the Nav bar, Social Media links and hero image was taken from Code Institue's Love Running Project. 
+
+    - The code for image title overlays was taken and adapted from w3schools instructional page [How TO - Image Overlay Title](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp).
+
+- Media
+    - The videos linked in the 'Booking Form' are the property of [Snowboard Pro Camp](https://www.snowboardprocamp.com/). Permission was obtained to use these videos.
+    - All other photos and videos were either downloaded from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), or owned by myself.
 
 ## Acknowledgments
