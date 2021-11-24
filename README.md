@@ -31,8 +31,10 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
     - [Languages](#Languages)
     - [Tools](#Tools)
 - [Testing](#Testing)
-
-
+    - [Overview](#Overview)
+    - [Validator Testing](#Validator-Testing)
+    - [Issues/Bugs Resolved During Testing](#Issues/Bugs-Resolved-During-Testing)
+    - [Issues Not Resolved](#Issues-Not-Resolved)
 
 ## UX Design 
 
@@ -200,6 +202,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 - A member photo and video sharing page could be added to allow additional conectivity between users.
 - A review or feedback form could also be added for users who have purchased lessons or attended events. 
+- A play button over the videos
+- Carousel that expands/progress bar for media
 
 ## Technologies
 
@@ -218,6 +222,16 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - Lighthouse was used to audit the website for quality and accessibility 
 
 ## Testing
+
+### Overview
+
+Testing will be performed on the layout, structure and styling of the website. In order to do this dev-tools (and it's other browser counterparts) will be used to view the site on different browsers and different device sizes.
+
+In addition the deployed site will be tested directly on different devices. The devices used were:
+    - Laptop with 1920 x 1080px screen
+    - Google Pixel 3a phone
+    - Iphone XR
+    - 
 
 ### Validator Testing
 
@@ -245,9 +259,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 This was fixed by placing the 'input' tags inside the 'label' tags, placing the text within it's own span and using CSS to 'vertical-align: middle; ' the input and span.
 
-Issues not resolved
-- Hero image is blurry and pixelated when viewed on larger screens. This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path
-
+### Issues not resolved
+- The hero image becomes blurry and pixelated when viewed on larger screens (roughly >770px width). This is due to the image being a screenshot rather than the original file. It can be fixed in the future by changing the image or finding the original file path.
 
 ## Deployment 
 
