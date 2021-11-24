@@ -260,10 +260,10 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 Testing will be performed on the layout, structure and styling of the website. In order to do this dev-tools (and it's other browser counterparts) will be used to view the site on different browsers and different device sizes.
 
 In addition the deployed site will be tested directly on different devices. The devices used were:
-    - Laptop with 1920 x 1080px screen
-    - Google Pixel 3a phone
-    - Iphone XR
-    - 
+- Laptop with 1920 x 1080px screen
+- Google Pixel 3a phone
+- Iphone XR
+- 
 
 Testing will look for the following:
 
