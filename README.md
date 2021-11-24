@@ -229,8 +229,9 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 - A member photo and video sharing page could be added to allow additional conectivity between users.
 - A review or feedback form could also be added for users who have purchased lessons or attended events. 
-- A play button over the videos
-- Carousel that expands/progress bar for media
+- A play button over the videos as the video controls using JavaScript
+- An embedded section to a different website to hire equipment or a section which allows users to directly hire equipment 
+- The media carousel that expands when click and contain progress bar using JavaScript
 
 ***
 
@@ -340,10 +341,20 @@ As a returning visitor I want:
 1. To be able to book lessons online
     - The user is greeted on the homepage with a bright "book now" button. This takes the user to the book page, where they can see different lesson options and make an enquiry using the booking form attached
 2. To be able to contact the business to request further information
-    - The footer on all pages has the contact information (mail, phone and address). In addition there is a link in the nav bar that takes the user straight to this information
-- To find information on how I can hire equipment
+    - The footer on all pages has the contact information (mail, phone and address). In addition there is a link in the nav bar that takes the user straight to the contact information
+3. To find information on how I can hire equipment
+    - The Explore page contains a section with information on how you can hire equipment
 
+As a frequent visitor I want:
 
+1. To check for any new photos or videos uploaded
+    - The gallery page is access using the nav bar shows both photos and videos. This can easily be updated or added to as new media becomes available
+2. To check for upcoming events and competitions 
+    - In the Explore page there is a large photo/block style calendar which shows upcoming events. They contain the date and name of the event for users that are interested
+3. To be able to find information on snow conditions and trail maps
+    - Within the Explore page there are clear links that take the user to both updated trail maps and live snow report. The trail maps are updated when required and the snow report is updated daily
+4. To sign up to the newsletter so I can receive updates and potential deals
+    - In the footer is a large, clear form where the user can input their email and subscribe to the newsletter. This can be accessed from all pages 
 
 ***
 
