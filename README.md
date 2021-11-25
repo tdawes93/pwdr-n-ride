@@ -167,17 +167,22 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - It is identical on all four pages, highlighting the page the user is on. It includes Home, Gallery, Events, Book and Contact links.
     - The Home, Gallery, Events and Book links take you to respective pages, the Contact link takes you to the footer, where the contact information is held.
 
+    ![Navigation Bar](assets/readme.md-images/nav-bar-image.png)
+
 - __Hero Image & Book Now Button__
 
     - The hero image includes a photograph with a bright 'book now' button overlayed, enabling users to jump easily jump straight to the booking page if that is their reason for visiting the site.
     - The image is an action shot of snowboarding creating excitement and intrigue into the world of snowboarding. The site colours were extracted from this photo.
     - The Book Now button is large and placed right in the eye line of the user to attract attention. It is bright orange which entices people to click it and link them to the booking form page, which ultimately increases the number of lessons booked.
 
+    ![Hero Image](assets/readme.md-images/hero-image-and-book-button.png)
+
 - __About Section__
 
     - The about section allows the user to gain basic information about Pwdr 'N' Ride including location and who it is aimed at.
     - It provides a list of lessons and events on offer and a quick link to the gallery to increase user interactiveness.
     - From this section the user will be able to make a basic decision if joining Pwdr 'N' Ride is of value to them and if they wish to learn more.
+    ![About Section](assets/readme.md-images/about-section-image.png)
 
 - __Footer__
 
@@ -188,6 +193,7 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - It provides links to relevant social media, which open in new tabs allowing for ease of navigation.
 
     - There is basic contact information including email address and phone number which encourages users to get in contact and request further information.
+    ![Footer](assets/readme.md-images/footer-image.png)
 
 #### Gallery
 
@@ -199,7 +205,11 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
     - The first carousel is for varying photos of events taking place. It is easily scrollable horizontally on all devices creating ease of use for the user. 
 
+- __Video Carousel__
+
     - The second carousel is for different videos of events and members. The first video plays automatically but is muted for a good user experience. The videos are set to loop automatically once played, to encourage users to watch them again.
+
+    ![Photo and Video Carousel](assets/readme.md-images/carousel-image.png)
 
 #### Explore Page
 

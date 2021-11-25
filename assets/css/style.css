@@ -591,7 +591,6 @@ div h2 {
 }
 
 /* Media Queries */
-
 /* For smaller tablets */
 @media screen and (min-width: 426px) {
     #logo {
@@ -657,7 +656,6 @@ div h2 {
 }
 
 /*For larger tablets*/
-
 @media screen and (min-width: 480px) {
     .courses {
         width: 49vw;
@@ -755,7 +753,7 @@ div h2 {
 }
 
 /*For Devices turned landscape*/
-@media screen and (min-width: 426px) and (orientation: landscape) {
+@media screen and (min-width: 426px) and (max-width: 769px) and (orientation: landscape) {
     .photo {
         width: 30vw;
     }
@@ -769,7 +767,7 @@ div h2 {
     }
 }
 
-@media screen and (min-width: 770px) and (orientation: landscape) {
+@media screen and (min-width: 770px) and (max-width: 1025px) and (orientation: landscape) {
     .photo {
         width: 25vw;
     }
