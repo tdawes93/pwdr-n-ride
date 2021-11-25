@@ -221,6 +221,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
 
 - The links to weather updates and trail maps are easy to find and increase the potential foot traffic through the site as these pages are often difficult to find on other websites.
 
+![Explore Page](assets/readme.md-images/explorepage-image.png)
+
 #### Booking Page
 
 - The booking page has two sections, a list of courses/lessons on offer and the booking form.
@@ -234,6 +236,8 @@ As this is a front-end site made solely from HTML and CSS the booking form and n
     - The booking form is linked to either by clicking on the lesson photos or scrolling down.
 
     - The booking form allows the user to specify what class they would like to attend and when. It also has a section to assess their ability with external links to some basic snowboarding moves for reference. 
+
+    ![Booking Form](assets/readme.md-images/booking-form.png)
 
 ### Future Features to Implement
 
