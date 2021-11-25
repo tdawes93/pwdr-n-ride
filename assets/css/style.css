@@ -37,18 +37,15 @@ h1 {
 /* Navigation bar */
 .menu {
     width: 100%;
-    margin: 0 auto;
 }
 
 #navbar {
     font-size: 120%;
     list-style-type: none;
     text-align: center;
-    margin: 0;
 }
 
 #navbar li {
-    margin: 0;
     display: inline-block;
 }
 
