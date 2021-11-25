@@ -7,7 +7,7 @@ This website was made as the fulfillment of the Milestone Project 1 for the Full
 The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
 
-![Responsive Website](assets/readme.md-images/Responsive-test.png)
+![Responsive Website](assets/readme.md-images/responsive-test.png)
 
 ## Table of Contents
 
@@ -112,7 +112,7 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
 
 - The majority of the text is coloured in Jet #2D2C2A to add contrast and clarity to the text.
 
-![Colour Scheme](/assets/readme.md-images/PwdrNRide_colourpalette.png)
+![Colour Scheme](/assets/readme.md-images/pwdrnride_colourpalette.png)
 
 #### Typography
 
@@ -327,7 +327,7 @@ Testing will look for the following:
 - The videos in the gallery did not load when the site was originally deployed. This was fixed by changing the relative file path in gallery.html to remove the / at the beginning of each file path. 
 - Once the site was deployed the checkboxes on the 'booking form' did not line up with the labels when viewed on mobile devices. 
 ***
-![Booking Form Alignment](assets/readme.md-images/Checkbox_label_alignment_issue.jpeg)
+![Booking Form Alignment](assets/readme.md-images/checkbox_label_alignment_issue.jpeg)
 
 This was fixed by placing the 'input' tags inside the 'label' tags, placing the text within its own span and using CSS to 'vertical-align: middle; ' the input and span.
 
