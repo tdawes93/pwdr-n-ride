@@ -36,6 +36,12 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
     - [Issues/Bugs Resolved During Testing](#Issues/Bugs-Resolved-During-Testing)
     - [Issues Not Resolved](#Issues-Not-Resolved)
     - [Testing User Stories](#Testing-User-Stories)
+- [Deployment](#Deployment)
+    - [GitHub Pages](#GitHub-Pages)
+    - [Fork the GitHub](#Fork-the-GitHub)
+    - [Make a local clone](#Make-a-local-clone)
+- [Credits](#Credits)
+- [Acknowledgments](#Acknowledgments)
 
 ****
 
@@ -375,9 +381,9 @@ As a frequent visitor I want:
 
 ## Deployment 
 
-### Github Pages
+### GitHub Pages
 
-The project is hosted by Github and deployed using the following steps:
+The project is hosted by GitHub and deployed using the following steps:
 
 1. Log in to Github and locate the [Pwdr'N'Ride Repository](https://github.com/tdawes93/pwdr-n-ride)
 2. Click the settings button on the menu
@@ -424,3 +430,5 @@ If you wish to view or make changes without affecting the original repository yo
 ***
 
 ## Acknowledgments
+
+I'd like to thank my mentor Spencer Bariball for his support and feedback throughout the project. I'd also like to thank my friend Richard Hall for his photography skills for various images used. Finally the group of friends and family I had test and give feedback on the site on their various mobiles and laptops.
