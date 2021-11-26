@@ -34,7 +34,6 @@ The live website can be found [here](https://tdawes93.github.io/pwdr-n-ride/)
     - [Overview](#Overview)
     - [Validator Testing](#Validator-Testing)
     - [Issues/Bugs Resolved During Testing](#Issues/Bugs-Resolved-During-Testing)
-    - [Issues Not Resolved](#Issues-Not-Resolved)
     - [Testing User Stories](#Testing-User-Stories)
 - [Deployment](#Deployment)
     - [GitHub Pages](#GitHub-Pages)
@@ -334,9 +333,6 @@ This was fixed by placing the 'input' tags inside the 'label' tags, placing the 
 - The hero image was blurry and pixelated when viewed on larger screens (roughly >770px width). This is due to the image being a screenshot rather than the original file. This was resolved by changing the image for one of a higher resolution
 
 - The images and containing divs in the Gallery and Book page overlapped when viewed on mobile devices in landscape. This was more noticeable on thinner but longer devices. This was fixed by writing a media query to target the min-width and landscape orientation.
-
-### Issues not resolved
-
 
 ### Testing User Stories
 
